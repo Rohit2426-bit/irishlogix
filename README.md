@@ -1,6 +1,6 @@
 # IrishLogix: Coupled Predictive Delay Analytics & Carbon-Aware Route Optimisation
 
-**MSc in Data Analytics — Research Practicum (MSCDAD_A_JAN26I)**  
+**MSc in Data Analytics: Research Practicum (MSCDAD_A_JAN26I)**  
 **National College of Ireland (NCI)**  
 **Student:** Rohitkumar Amritlal Jaiswal (Student ID: 25119613)  
 **Academic Supervisor:** Dr. Thanos Staikopoulos  
@@ -18,7 +18,7 @@ Over 80% of Ireland's external freight moves through maritime ports (Dublin Port
 - **Primary Research Question (PRQ):** To what extent does an integrated decision-support system coupling machine learning delay predictions with carbon-aware multi-objective route optimisation outperform traditional spreadsheet-based planning in reducing vehicle waiting hours, operational costs, and carbon intensity across post-Brexit Irish freight corridors?
 - **SRQ 1 (Predictive Modeling):** How accurately can gradient-boosted models (XGBoost) predict next-day port congestion risk and customs clearance delays using open maritime and calibrated trade data?
 - **SRQ 2 (Prescriptive Coupling):** Does integrating stochastic upstream delay predictions into a bi-objective route optimizer deliver statistically significant reductions in vehicle idle waiting time and total transit cost compared to static FIFO planning?
-- **SRQ 3 (Decarbonisation & Policy):** How resilient is the generated Pareto frontier to fluctuating EU ETS2 carbon prices (€40–€120/tonne) in achieving CSRD-aligned fleet emissions reductions?
+- **SRQ 3 (Decarbonisation & Policy):** How resilient is the generated Pareto frontier to fluctuating EU ETS2 carbon prices (EUR 40 to EUR 120 per tonne) in achieving CSRD-aligned fleet emissions reductions?
 
 ---
 
@@ -56,9 +56,9 @@ IrishLogix operates across three tightly coupled technical components:
 └────────────────────────────────────────────────────────┘
 ```
 
-1. **Component 1 (C1 — Port Congestion Classifier):** XGBoost classifier predicting next-day port congestion risk (Low, Medium, High) using CSO maritime traffic (arrivals, Ro-Ro units, tonnage) and EMODnet vessel density.
-2. **Component 2 (C2 — Customs Delay Regressor):** XGBoost regressor predicting lane-specific customs clearance durations based on commodity risk (SPS/Agrifood vs manufactured) and post-Brexit trade origin.
-3. **Component 3 (C3 — Bi-Objective Pareto Route Optimizer):** Mathematical optimization engine balancing freight transit cost (€) against tailpipe carbon intensity ($g\text{CO}_2\text{e/km}$) subject to EC 561/2006 driver break constraints.
+1. **Component 1 (C1: Port Congestion Classifier):** XGBoost classifier predicting next-day port congestion risk (Low, Medium, High) using CSO maritime traffic (arrivals, Ro-Ro units, tonnage) and EMODnet vessel density.
+2. **Component 2 (C2: Customs Delay Regressor):** XGBoost regressor predicting lane-specific customs clearance durations based on commodity risk (SPS/Agrifood vs manufactured) and post-Brexit trade origin.
+3. **Component 3 (C3: Bi-Objective Pareto Route Optimizer):** Mathematical optimization engine balancing freight transit cost (€) against tailpipe carbon intensity ($g\text{CO}_2\text{e/km}$) subject to EC 561/2006 driver break constraints.
 
 ---
 
