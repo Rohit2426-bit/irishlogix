@@ -1,0 +1,14 @@
+{
+  "total_consignments": 50,
+  "total_distance_km": 8636.5,
+  "total_driving_hours": 104.4,
+  "total_idle_waiting_hours": 63.5,
+  "avg_idle_waiting_hours_per_trip": 1.27,
+  "total_fuel_consumed_litres": 2879.3,
+  "total_carbon_emissions_kg": 7601.3,
+  "avg_carbon_intensity_g_per_km": 919.0,
+  "total_transport_cost_eur": 14791.21,
+  "avg_cost_per_trip_eur": 295.82,
+  "trips_requiring_mandatory_rest": 0,
+  "trips_exceeding_daily_limit": 0
+}

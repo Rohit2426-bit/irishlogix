@@ -1,0 +1,51 @@
+consignment_id,origin_port,destination_hub,origin_region,commodity,distance_km,driving_hours,gate_wait_hours,customs_wait_hours,total_idle_hours,rest_break_hours,total_transit_elapsed_hours,fuel_consumed_litres,carbon_emissions_kg,carbon_intensity_g_per_km,driver_cost_eur,fuel_cost_eur,toll_cost_eur,ets2_tax_eur,total_trip_cost_eur,ec561_break_required,ec561_limit_exceeded
+CSG-0001,PORT_ROSSLARE,HUB_GALWAY,EU Internal Market,Agrifood / SPS Sensitive,362.0,4.29,0.31,0.05,0.36,0.0,4.65,114.92,303.4,838.12,123.17,201.12,12.2,24.27,534.52,False,False
+CSG-0002,PORT_CORK,HUB_LIMERICK,EU Internal Market,Agrifood / SPS Sensitive,114.0,1.67,0.37,0.05,0.42,0.0,2.09,36.96,97.59,856.02,55.43,64.69,0.0,7.81,182.65,False,False
+CSG-0003,PORT_DUBLIN,HUB_GALWAY,EU Internal Market,Agrifood / SPS Sensitive,222.5,2.6,0.92,0.05,0.97,0.0,3.57,72.52,191.46,860.5,94.72,126.92,18.8,15.32,362.55,False,False
+CSG-0004,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,210.5,2.47,0.89,2.25,3.14,0.0,5.61,74.17,195.8,930.16,148.75,129.79,13.4,15.66,408.65,False,False
+CSG-0005,PORT_ROSSLARE,HUB_ATHLONE,EU Internal Market,General Merchandise,276.0,3.32,0.45,0.05,0.5,0.0,3.82,88.18,232.79,843.45,101.11,154.31,8.8,18.62,415.32,False,False
+CSG-0006,PORT_ROSSLARE,HUB_GALWAY,EU Internal Market,General Merchandise,362.0,4.29,1.11,0.05,1.16,0.0,5.45,116.94,308.71,852.8,144.5,204.64,12.2,24.7,559.8,False,False
+CSG-0007,PORT_DUBLIN,HUB_GALWAY,EU Internal Market,Agrifood / SPS Sensitive,222.5,2.6,2.09,0.05,2.14,0.0,4.74,75.44,199.17,895.16,125.68,132.03,18.8,15.93,399.24,False,False
+CSG-0008,PORT_DUBLIN,HUB_DUBLIN_M50,Great Britain (Post-Brexit),General Merchandise,18.5,0.28,0.53,0.48,1.01,0.0,1.29,8.36,22.08,1193.64,34.31,14.64,10.0,1.77,69.6,False,False
+CSG-0009,PORT_DUBLIN,HUB_WATERFORD_INLAND,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,174.5,2.12,0.61,2.15,2.76,0.0,4.88,61.86,163.32,935.94,129.28,108.26,13.4,13.07,347.77,False,False
+CSG-0010,PORT_ROSSLARE,HUB_LIMERICK,EU Internal Market,General Merchandise,202.0,2.73,0.3,0.05,0.35,0.0,3.08,64.51,170.32,843.16,81.72,112.9,2.2,13.63,307.4,False,False
+CSG-0011,PORT_ROSSLARE,HUB_DUNDALK,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,258.5,3.23,0.31,3.5,3.81,0.0,7.04,90.96,240.12,928.91,186.6,159.17,19.2,19.21,508.26,False,False
+CSG-0012,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,210.5,2.47,0.48,0.88,1.36,0.0,3.83,69.72,184.05,874.36,101.6,122.0,13.4,14.72,352.77,False,False
+CSG-0013,PORT_ROSSLARE,HUB_ATHLONE,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,276.0,3.32,0.33,0.74,1.07,0.0,4.39,89.61,236.58,857.18,116.33,156.82,8.8,18.93,433.36,False,False
+CSG-0014,PORT_DUBLIN,HUB_WATERFORD_INLAND,EU Internal Market,General Merchandise,174.5,2.12,0.78,0.05,0.83,0.0,2.95,57.05,150.6,863.03,78.2,99.83,13.4,12.05,287.24,False,False
+CSG-0015,PORT_ROSSLARE,HUB_GALWAY,EU Internal Market,Agrifood / SPS Sensitive,362.0,4.29,0.2,0.05,0.25,0.0,4.54,114.66,302.7,836.18,120.34,200.65,12.2,24.22,531.17,False,False
+CSG-0016,PORT_DUBLIN,HUB_GALWAY,Great Britain (Post-Brexit),General Merchandise,222.5,2.6,0.39,0.34,0.74,0.0,3.34,71.93,189.88,853.41,88.38,125.87,18.8,15.19,355.04,False,False
+CSG-0017,PORT_ROSSLARE,HUB_DUBLIN_M50,Great Britain (Post-Brexit),General Merchandise,158.0,1.98,0.26,0.26,0.53,0.0,2.51,51.08,134.86,853.54,66.39,89.4,3.4,10.79,245.82,False,False
+CSG-0018,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,Agrifood / SPS Sensitive,136.5,1.63,0.46,0.05,0.51,0.0,2.14,44.26,116.85,856.05,56.6,77.46,15.4,9.35,224.32,False,False
+CSG-0019,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),General Merchandise,210.5,2.47,0.68,2.65,3.33,0.0,5.8,74.63,197.03,936.02,153.71,130.61,13.4,15.76,414.52,False,False
+CSG-0020,PORT_ROSSLARE,HUB_WATERFORD_INLAND,Great Britain (Post-Brexit),General Merchandise,74.0,0.95,0.27,2.84,3.12,0.0,4.07,31.1,82.1,1109.51,107.75,54.42,2.2,6.57,206.46,False,False
+CSG-0021,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),General Merchandise,210.5,2.47,1.02,0.29,1.31,0.0,3.78,69.58,183.7,872.66,100.16,121.77,13.4,14.7,351.07,False,False
+CSG-0022,PORT_DUBLIN,HUB_WATERFORD_INLAND,Great Britain (Post-Brexit),General Merchandise,174.5,2.12,0.41,1.11,1.52,0.0,3.64,58.77,155.16,889.18,96.53,102.85,13.4,12.41,308.95,False,False
+CSG-0023,PORT_CORK,HUB_LIMERICK,EU Internal Market,General Merchandise,114.0,1.67,0.45,0.05,0.5,0.0,2.17,37.15,98.08,860.32,57.4,65.01,0.0,7.85,184.98,False,False
+CSG-0024,PORT_ROSSLARE,HUB_DUNDALK,EU Internal Market,General Merchandise,258.5,3.23,0.33,0.05,0.38,0.0,3.61,82.37,217.45,841.19,95.55,144.14,19.2,17.4,400.37,False,False
+CSG-0025,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),General Merchandise,210.5,2.47,1.04,0.44,1.47,0.0,3.94,69.99,184.77,877.77,104.48,122.48,13.4,14.78,356.18,False,False
+CSG-0026,PORT_DUBLIN,HUB_DUNDALK,Great Britain (Post-Brexit),Machinery & Parts,82.0,0.96,0.98,0.73,1.7,0.0,2.66,30.08,79.42,968.52,70.52,52.65,5.8,6.35,174.68,False,False
+CSG-0027,PORT_ROSSLARE,HUB_GALWAY,EU Internal Market,Agrifood / SPS Sensitive,362.0,4.29,0.3,0.05,0.35,0.0,4.64,114.92,303.38,838.07,123.08,201.1,12.2,24.27,534.42,False,False
+CSG-0028,PORT_DUBLIN,HUB_LIMERICK,Great Britain (Post-Brexit),General Merchandise,210.5,2.47,0.96,0.34,1.3,0.0,3.77,69.56,183.64,872.4,99.94,121.73,13.4,14.69,350.8,False,False
+CSG-0029,PORT_DUBLIN,HUB_GALWAY,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,222.5,2.6,2.33,0.73,3.06,0.0,5.66,77.75,205.26,922.51,150.11,136.06,18.8,16.42,428.2,False,False
+CSG-0030,PORT_CORK,HUB_DUBLIN_M50,EU Internal Market,General Merchandise,264.0,3.08,0.3,0.05,0.35,0.0,3.43,84.03,221.85,840.34,90.89,147.06,6.8,17.75,389.21,False,False
+CSG-0031,PORT_DUBLIN,HUB_DUBLIN_M50,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,18.5,0.28,0.47,0.44,0.91,0.0,1.19,8.11,21.4,1156.61,31.56,14.18,10.0,1.71,66.34,False,False
+CSG-0032,PORT_DUBLIN,HUB_DUNDALK,Great Britain (Post-Brexit),Machinery & Parts,82.0,0.96,1.04,2.69,3.73,0.0,4.69,35.15,92.8,1131.66,124.23,61.51,5.8,7.42,238.33,False,False
+CSG-0033,PORT_DUBLIN,HUB_WATERFORD_INLAND,Great Britain (Post-Brexit),General Merchandise,174.5,2.12,1.03,0.68,1.71,0.0,3.83,59.24,156.39,896.23,101.46,103.67,13.4,12.51,314.8,False,False
+CSG-0034,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,Machinery & Parts,136.5,1.63,0.93,0.05,0.98,0.0,2.61,45.46,120.01,879.18,69.27,79.55,15.4,9.6,239.35,False,False
+CSG-0035,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,General Merchandise,136.5,1.63,0.84,0.05,0.89,0.0,2.52,45.22,119.39,874.66,66.79,79.14,15.4,9.55,236.41,False,False
+CSG-0036,PORT_ROSSLARE,HUB_DUBLIN_M50,EU Internal Market,General Merchandise,158.0,1.98,0.36,0.05,0.41,0.0,2.39,50.8,134.11,848.8,63.38,88.9,3.4,10.73,242.25,False,False
+CSG-0037,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,General Merchandise,136.5,1.63,0.78,0.05,0.83,0.0,2.46,45.07,118.97,871.61,65.12,78.87,15.4,9.52,234.43,False,False
+CSG-0038,PORT_ROSSLARE,HUB_DUBLIN_M50,Great Britain (Post-Brexit),Machinery & Parts,158.0,1.98,0.37,0.71,1.08,0.0,3.06,52.48,138.53,876.8,81.15,91.83,3.4,11.08,263.3,False,False
+CSG-0039,PORT_DUBLIN,HUB_DUNDALK,EU Internal Market,General Merchandise,82.0,0.96,0.23,0.05,0.28,0.0,1.24,26.52,70.02,853.89,32.78,46.41,5.8,5.6,129.95,False,False
+CSG-0040,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,Machinery & Parts,136.5,1.63,0.73,0.05,0.78,0.0,2.41,44.94,118.64,869.18,63.79,78.65,15.4,9.49,232.85,False,False
+CSG-0041,PORT_ROSSLARE,HUB_ATHLONE,Great Britain (Post-Brexit),General Merchandise,276.0,3.32,0.44,0.28,0.72,0.0,4.04,88.74,234.27,848.82,107.06,155.3,8.8,18.74,422.38,False,False
+CSG-0042,PORT_DUBLIN,HUB_DUNDALK,Great Britain (Post-Brexit),General Merchandise,82.0,0.96,0.34,0.34,0.68,0.0,1.64,27.53,72.68,886.31,43.45,48.18,5.8,5.81,142.6,False,False
+CSG-0043,PORT_DUBLIN,HUB_DUBLIN_M50,Great Britain (Post-Brexit),General Merchandise,18.5,0.28,0.38,0.4,0.78,0.0,1.06,7.77,20.51,1108.71,28.0,13.6,10.0,1.64,62.12,False,False
+CSG-0044,PORT_DUBLIN,HUB_DUNDALK,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,82.0,0.96,0.79,0.64,1.43,0.0,2.39,29.41,77.64,946.82,63.37,51.47,5.8,6.21,166.21,False,False
+CSG-0045,PORT_DUBLIN,HUB_ATHLONE,EU Internal Market,Machinery & Parts,136.5,1.63,1.57,0.05,1.62,0.0,3.25,47.04,124.19,909.85,86.08,82.33,15.4,9.94,259.26,False,False
+CSG-0046,PORT_DUBLIN,HUB_ATHLONE,Great Britain (Post-Brexit),General Merchandise,136.5,1.63,1.1,0.4,1.49,0.0,3.12,46.73,123.36,903.77,82.75,81.78,15.4,9.87,255.32,False,False
+CSG-0047,PORT_DUBLIN,HUB_DUNDALK,Great Britain (Post-Brexit),Agrifood / SPS Sensitive,82.0,0.96,1.02,0.92,1.94,0.0,2.9,30.68,81.01,987.89,76.9,53.7,5.8,6.48,182.24,False,False
+CSG-0048,PORT_DUBLIN,HUB_DUBLIN_M50,EU Internal Market,Agrifood / SPS Sensitive,18.5,0.28,1.24,0.05,1.29,0.0,1.57,9.05,23.89,1291.32,41.57,15.84,10.0,1.91,78.2,False,False
+CSG-0049,PORT_DUBLIN,HUB_LIMERICK,EU Internal Market,General Merchandise,210.5,2.47,0.71,0.05,0.76,0.0,3.23,68.2,180.04,855.3,85.49,119.35,13.4,14.4,333.67,False,False
+CSG-0050,PORT_DUBLIN,HUB_DUBLIN_M50,EU Internal Market,Machinery & Parts,18.5,0.28,0.85,0.05,0.9,0.0,1.18,8.07,21.3,1151.41,31.18,14.12,10.0,1.7,65.88,False,False
