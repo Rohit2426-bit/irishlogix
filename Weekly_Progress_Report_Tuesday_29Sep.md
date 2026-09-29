@@ -12,7 +12,6 @@
 ---
 
 ### 1. Summary of Activities Completed This Week
-- **Proposal & Ethics Finalisation:** Refined and compiled the CA2 Research in Computing Proposal PDF (4,691 words) incorporating CA1 supervisory feedback. Streamlined the architecture from eight modules down to three core coupled components (Port Congestion Classifier C1, Customs Delay Regressor C2, Carbon-Aware Pareto Optimizer C3). Curated all 7 foundational research papers into `Literature_Review_References.zip` and signed the Ethics Consideration Form verifying open and synthetic data use.
 - **Project Pitch Formulation:** Developed a structured 1-2 minute project pitch adhering to the required sequence (Problem -> Gap -> Idea -> Method -> Contribution) in preparation for the 1 October presentation.
 - **Repository Setup & Package Architecture:** Initialized the formal Git repository and structured the `irishlogix` Python package following modern PEP 621 packaging with `pyproject.toml`.
 - **Automated CSO Data Pipeline Ingestion (`cso_loader.py`):** Successfully connected to Ireland's Central Statistics Office (CSO) PxStat REST API, downloading, cleaning, and caching:

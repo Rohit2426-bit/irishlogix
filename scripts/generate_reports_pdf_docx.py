@@ -95,7 +95,6 @@ def create_docx_report(target_path: Path):
     # Section 1
     add_section_heading("1. Activities Completed This Week (What?)")
     bullets1 = [
-        ("Project Proposal and Ethics Sign-Off: ", "Finalised the 4,691-word Research in Computing Proposal PDF (CA2) incorporating CA1 supervisory feedback. Streamlined the architecture into three tightly coupled modules: (C1) Port Congestion Classifier, (C2) Customs Delay Regressor, and (C3) Carbon-Aware Pareto Route Optimizer. Curated all 7 literature review references and EU directives (Literature_Review_References.zip) and executed the signed Ethics Declaration verifying secondary and synthetic data usage."),
         ("Project Pitch Formulation: ", "Developed a structured 1-2 minute project pitch adhering to the required sequence (Problem -> Gap -> Idea -> Method -> Contribution) in preparation for the 1 October presentation."),
         ("Repository Architecture and Environment Setup: ", "Initialized the formal Git repository and structured the production-grade Python package (irishlogix) following modern PEP 621 packaging with pyproject.toml."),
         ("Automated Open Data Ingestion Pipeline (cso_loader.py): ", "Engineered and deployed an automated data ingestion client connecting directly to the Central Statistics Office (CSO) PxStat REST API. Successfully downloaded, cleaned, and cached: TBQ01 (444 vessel arrival records), TBQ04 (2,331 Ro-Ro freight unit traffic records), and TBQ05 (3,600 port tonnage records disaggregated by trade region - Great Britain vs. EU). Constructed the unified port activity matrix ready for C1 training."),
@@ -348,7 +347,6 @@ def create_pdf_report(target_path: Path):
 
     # Section 1
     story.append(Paragraph("1. Activities Completed This Week (What?)", heading_style))
-    story.append(Paragraph("• <b>Project Proposal & Ethics Sign-Off:</b> Finalised the 4,691-word Research in Computing Proposal PDF (CA2) streamlining scope into 3 coupled modules (C1, C2, C3). Curated 7 peer-reviewed reference papers and signed the official Ethics Consideration Form.", body_style))
     story.append(Paragraph("• <b>Repository Architecture & Packaging:</b> Initialized the formal Git repository with modern PEP 621 packaging (<code>irishlogix</code> v0.1.0) and automated testing harness.", body_style))
     story.append(Paragraph("• <b>Automated CSO Data Pipeline (<code>cso_loader.py</code>):</b> Integrated the Central Statistics Office (CSO) PxStat API; successfully ingested and parsed 444 vessel arrivals (TBQ01), 2,331 Ro-Ro freight records (TBQ04), and 3,600 trade region records (TBQ05). Created unified port congestion matrix.", body_style))
     story.append(Paragraph("• <b>Jupyter Notebook Development:</b> Created and executed <code>notebooks/01_week1_data_ingestion_and_exploration.ipynb</code> with live data loading, longitudinal trend visualisations (2017 to 2026), and baseline metrics.", body_style))

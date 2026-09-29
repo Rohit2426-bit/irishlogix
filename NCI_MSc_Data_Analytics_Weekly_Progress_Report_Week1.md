@@ -21,7 +21,6 @@
 ### 1. Activities Completed This Week (What?)
 *NCI Reflective Prompt: Reflect on what has happened in your project this week. Detail concrete technical, analytical, or literature tasks completed.*
 
-- **Project Scoping, Proposal & Ethics Sign-Off:** Finalised the 4,691-word Research in Computing Proposal PDF (CA2) incorporating CA1 supervisory feedback. Streamlined the architecture into three tightly coupled modules: (C1) Port Congestion Classifier, (C2) Customs Delay Regressor, and (C3) Carbon-Aware Pareto Route Optimizer. Curated all 7 literature review references and EU directives (`Literature_Review_References.zip`) and executed the signed Ethics Declaration verifying secondary and synthetic data usage.
 - **Project Pitch Formulation:** Developed a structured 1-2 minute project pitch adhering to the required sequence (Problem -> Gap -> Idea -> Method -> Contribution) in preparation for the 1 October presentation.
 - **Repository Architecture & Environment Setup:** Initialized the formal Git repository and structured the production-grade Python package (`irishlogix`) following modern PEP 621 packaging with `pyproject.toml`.
 - **Public Datasets Downloaded & Ingestion Pipeline (`cso_loader.py`):** Successfully connected to Ireland's Central Statistics Office (CSO) PxStat REST API, downloading, cleaning, and caching:
