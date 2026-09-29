@@ -69,7 +69,6 @@ irishlogix/
 ├── pyproject.toml                     # Modern PEP 621 packaging and dependencies
 ├── README.md                          # Project architecture and research documentation
 ├── .gitignore                         # Version control exclusions
-├── NCI_MSc_Data_Analytics_Weekly_Progress_Report_Week1.pdf # Official Week 1 report
 ├── data/
 │   ├── raw/cso/                       # Raw CSO PxStat tables (TBQ01, TBQ04, TBQ05)
 │   └── processed/                     # Cleaned activity matrices and benchmark outputs
@@ -82,8 +81,7 @@ irishlogix/
 │   └── utils/                         # Config, emissions, and cost metrics
 ├── scripts/
 │   ├── run_data_ingestion.py          # CLI runner for CSO data ingestion
-│   ├── run_baseline_benchmark.py      # CLI runner for baseline FIFO simulation
-│   └── generate_reports_pdf_docx.py   # Report generation utility
+│   └── run_baseline_benchmark.py      # CLI runner for baseline FIFO simulation
 └── tests/                             # Pytest automated test suite (9 passing tests)
 ```
 
