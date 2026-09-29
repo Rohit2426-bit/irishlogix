@@ -42,3 +42,8 @@ Thumbs.db
 
 # Large raw datasets (raw downloads cached locally)
 data/raw/*.tmp
+
+# Local submission reports (do not publish to GitHub)
+*.pdf
+*.docx
+reports/
