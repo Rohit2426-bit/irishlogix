@@ -66,7 +66,6 @@ IrishLogix operates across three tightly coupled technical components:
 
 ```
 irishlogix/
-├── pyproject.toml                     # Modern PEP 621 packaging and dependencies
 ├── README.md                          # Project architecture and research documentation
 ├── .gitignore                         # Version control exclusions
 ├── data/
@@ -89,7 +88,7 @@ irishlogix/
 
 ## 4. Week 1 Technical Accomplishments & Milestone Status
 
-- **Environment & Repository Setup:** Initialized Git version control and modern `pyproject.toml` configuration with strict testing and execution harnesses.
+- **Environment & Repository Setup:** Initialized Git version control and modular project architecture with automated testing harnesses.
 - **Automated Open Data Ingestion (`cso_loader.py`):** Successfully connected to the Central Statistics Office (CSO) PxStat REST API, downloading and parsing official maritime tables:
   - `TBQ01`: 444 vessel arrival records across Dublin, Cork, Rosslare, Shannon Foynes, and Waterford.
   - `TBQ04`: 2,331 Ro-Ro freight unit traffic records.
@@ -112,11 +111,11 @@ irishlogix/
 ### Installation
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd "Athanasio submission"
+git clone https://github.com/Rohit2426-bit/irishlogix.git
+cd irishlogix
 
-# Install dependencies
-pip install -e .
+# Install standard dependencies
+pip install pandas numpy scipy networkx requests matplotlib pytest
 ```
 
 ### Ingest CSO Maritime Data
