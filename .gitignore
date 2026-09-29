@@ -48,4 +48,5 @@ data/raw/*.tmp
 *.docx
 *.pptx
 *.ppt
+*.png
 reports/
