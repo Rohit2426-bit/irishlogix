@@ -98,7 +98,6 @@ def create_docx_report(target_path: Path):
     # Section 1
     add_heading("1. Summary of Activities Completed This Week")
     bullets1 = [
-        ("Project Pitch Preparation: ", "Prepared a 1-2 minute spoken pitch following the required format: Problem -> Gap -> Idea -> Method -> Contribution, ready for presentation on 1 October."),
         ("Code Repository Setup: ", "Initialized the project Git repository and created a clean Python package structure named irishlogix using pyproject.toml."),
         ("Public Data Ingestion (cso_loader.py): ", "Connected directly to the Central Statistics Office (CSO) PxStat API and downloaded quarterly maritime datasets from 2017 to 2026: TBQ01 (444 vessel arrival records), TBQ04 (2,331 Ro-Ro freight trailer units), and TBQ05 (3,600 trade region records). Built clean activity matrix in data/processed/cso_port_activity_matrix.csv."),
         ("Jupyter Notebook: ", "Created and executed notebooks/01_week1_data_ingestion_and_exploration.ipynb which downloads the data, plots port arrival trends, shows post-Brexit trade shifts, and runs the baseline route simulation."),
@@ -168,10 +167,10 @@ def create_docx_report(target_path: Path):
     # Section 4: Planned Activities
     add_heading("4. Planned Activities for Next Week")
     bullets3 = [
-        ("1. ", "Deliver the 1-2 minute oral pitch on 1 October."),
-        ("2. ", "Review the Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting."),
-        ("3. ", "Ingest EMODnet AIS vessel density data for Irish waters."),
-        ("4. ", "Start feature engineering for the Component 1 Port Congestion Classifier.")
+        ("1. ", "Review Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting."),
+        ("2. ", "Ingest EMODnet AIS vessel density data for Irish coastal shipping corridors."),
+        ("3. ", "Start feature engineering for the Component 1 Port Congestion Classifier."),
+        ("4. ", "Begin parameter calibration for the synthetic customs clearance delay generator.")
     ]
     for b_prefix, text in bullets3:
         p = doc.add_paragraph()
@@ -323,7 +322,6 @@ def create_pdf_report(target_path: Path):
 
     # Section 1
     story.append(Paragraph("1. Summary of Activities Completed This Week", heading_style))
-    story.append(Paragraph("• <b>Project Pitch Preparation:</b> Prepared a 1-2 minute spoken pitch following the required format: Problem -> Gap -> Idea -> Method -> Contribution, ready for presentation on 1 October.", body_style))
     story.append(Paragraph("• <b>Code Repository Setup:</b> Initialized the project Git repository and created a clean Python package structure named <code>irishlogix</code> using <code>pyproject.toml</code>.", body_style))
     story.append(Paragraph("• <b>Public Data Ingestion (<code>cso_loader.py</code>):</b> Connected directly to Central Statistics Office (CSO) PxStat API and downloaded quarterly datasets from 2017 to 2026: TBQ01 (444 vessel arrivals), TBQ04 (2,331 Ro-Ro trailer units), and TBQ05 (3,600 trade region records). Built clean activity matrix in <code>data/processed/cso_port_activity_matrix.csv</code>.", body_style))
     story.append(Paragraph("• <b>Jupyter Notebook Development:</b> Created and ran <code>notebooks/01_week1_data_ingestion_and_exploration.ipynb</code> which downloads data, plots arrival trends, shows post-Brexit trade shifts, and runs the baseline route simulation.", body_style))
@@ -364,7 +362,7 @@ def create_pdf_report(target_path: Path):
 
     # Section 4
     story.append(Paragraph("4. Planned Activities for Next Week", heading_style))
-    story.append(Paragraph("1. Deliver the 1-2 minute oral pitch on 1 October.<br/>2. Review Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting.<br/>3. Ingest EMODnet AIS vessel density data for Irish waters.<br/>4. Start feature engineering for the Component 1 Port Congestion Classifier.", body_style))
+    story.append(Paragraph("1. Review Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting.<br/>2. Ingest EMODnet AIS vessel density data for Irish coastal shipping corridors.<br/>3. Start feature engineering for the Component 1 Port Congestion Classifier.<br/>4. Begin parameter calibration for the synthetic customs clearance delay generator.", body_style))
 
     # Section 5: Milestones
     story.append(Paragraph("5. Milestone Tracking", heading_style))

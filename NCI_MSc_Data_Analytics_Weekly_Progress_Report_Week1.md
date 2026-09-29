@@ -20,7 +20,6 @@
 
 ### 1. Summary of Activities Completed This Week
 
-- **Project Pitch Preparation:** Prepared a 1-2 minute spoken pitch following the required format: Problem -> Gap -> Idea -> Method -> Contribution, ready for presentation on 1 October.
 - **Code Repository Setup:** Initialized the project Git repository and created a clean Python package structure named `irishlogix` using `pyproject.toml`.
 - **Public Data Ingestion (`cso_loader.py`):** Connected directly to the Central Statistics Office (CSO) PxStat API and downloaded quarterly maritime datasets from 2017 to 2026:
   - `TBQ01`: Vessel arrivals by port (444 records). URL: https://data.cso.ie/table/TBQ01
@@ -63,10 +62,10 @@
 
 ### 4. Planned Activities for Next Week
 
-1. Deliver the 1-2 minute oral pitch on 1 October.
-2. Review the Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting.
-3. Ingest EMODnet AIS vessel density data for Irish waters.
-4. Start feature engineering for the Component 1 Port Congestion Classifier.
+1. Review Week 1 baseline results and refined project plan with Dr. Thanos Staikopoulos during our meeting.
+2. Ingest EMODnet AIS vessel density data for Irish coastal shipping corridors.
+3. Start feature engineering for the Component 1 Port Congestion Classifier.
+4. Begin parameter calibration for the synthetic customs clearance delay generator.
 
 ---
 
