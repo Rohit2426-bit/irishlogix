@@ -73,8 +73,6 @@ irishlogix/
 ├── data/
 │   ├── raw/cso/                       # Raw CSO PxStat tables (TBQ01, TBQ04, TBQ05)
 │   └── processed/                     # Cleaned activity matrices and benchmark outputs
-├── docs/
-│   └── project_pitch_and_plan.md      # Pitch script and Gantt chart project plan
 ├── notebooks/
 │   └── 01_week1_data_ingestion_and_exploration.ipynb # Interactive analysis notebook
 ├── src/irishlogix/
