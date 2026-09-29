@@ -66,35 +66,27 @@ IrishLogix operates across three tightly coupled technical components:
 
 ```
 irishlogix/
-├── pyproject.toml                     # Modern PEP 621 packaging & dependencies
-├── README.md                          # Comprehensive project documentation
+├── pyproject.toml                     # Modern PEP 621 packaging and dependencies
+├── README.md                          # Project architecture and research documentation
 ├── .gitignore                         # Version control exclusions
+├── NCI_MSc_Data_Analytics_Weekly_Progress_Report_Week1.pdf # Official Week 1 report
 ├── data/
-│   ├── raw/
-│   │   └── cso/                       # Cached raw CSO PxStat tables (TBQ01, TBQ04, TBQ05)
-│   └── processed/                     # Cleaned time-series matrices & benchmark outputs
-│       ├── cso_port_activity_matrix.csv
-│       ├── baseline_benchmark_results.csv
-│       └── baseline_kpi_summary.json
-├── src/
-│   └── irishlogix/
-│       ├── __init__.py                # Package initialization (v0.1.0)
-│       ├── utils/
-│       │   ├── config.py              # Ports, hubs, vehicle specs, EC 561/2006 rules
-│       │   └── metrics.py             # Fuel burn, carbon intensity, operational cost
-│       ├── data/
-│       │   └── cso_loader.py          # CSO PxStat REST API loader & preprocessor
-│       ├── network/
-│       │   └── corridor_network.py    # NetworkX Irish freight corridor graph
-│       └── simulation/
-│           └── baseline_dispatcher.py # FIFO spreadsheet simulation baseline
-├── tests/
-│   ├── test_cso_loader.py             # Unit tests for data ingestion
-│   ├── test_corridor_network.py       # Unit tests for road network routing
-│   └── test_baseline_dispatcher.py    # Unit tests for baseline simulation
-└── scripts/
-    ├── run_data_ingestion.py          # Week 1 script: Fetches live CSO data
-    └── run_baseline_benchmark.py      # Week 1 script: Simulates baseline FIFO model
+│   ├── raw/cso/                       # Raw CSO PxStat tables (TBQ01, TBQ04, TBQ05)
+│   └── processed/                     # Cleaned activity matrices and benchmark outputs
+├── docs/
+│   └── project_pitch_and_plan.md      # Pitch script and Gantt chart project plan
+├── notebooks/
+│   └── 01_week1_data_ingestion_and_exploration.ipynb # Interactive analysis notebook
+├── src/irishlogix/
+│   ├── data/cso_loader.py             # CSO PxStat API data ingestion
+│   ├── network/corridor_network.py    # NetworkX Irish freight corridor network
+│   ├── simulation/baseline_dispatcher.py # FIFO baseline simulation benchmark
+│   └── utils/                         # Config, emissions, and cost metrics
+├── scripts/
+│   ├── run_data_ingestion.py          # CLI runner for CSO data ingestion
+│   ├── run_baseline_benchmark.py      # CLI runner for baseline FIFO simulation
+│   └── generate_reports_pdf_docx.py   # Report generation utility
+└── tests/                             # Pytest automated test suite (9 passing tests)
 ```
 
 ---
