@@ -50,3 +50,26 @@ data/raw/*.tmp
 *.ppt
 *.png
 reports/
+
+# Downloaded literature (copyrighted papers, do not publish)
+Literature_References_Downloaded/
+*.zip
+
+# Meeting recordings (private)
+*.ogg
+*.mp3
+*.m4a
+*.mp4
+
+# Generated simulation data (rebuild with scripts/run_world.py)
+data/world/
+results/*.log
+
+# College templates and sample papers (not for publication)
+all college provided template notes pdf word etc/
+
+# Archived documents already sent to the supervisor, and meeting recordings (private)
+archive_sent_documents/
+
+# Scripts that build the weekly reports and notes (local only)
+_doc_tools/

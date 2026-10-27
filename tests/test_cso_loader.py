@@ -1,32 +1,30 @@
 """
-Unit tests for CSO data loader module.
+Unit tests for the CSO data loader.
 """
 
-import pytest
 import pandas as pd
-from pathlib import Path
-from irishlogix.data.cso_loader import CSODataLoader
+
+from irishlogix.data.cso_loader import ARRIVALS, CSODataLoader
+
 
 def test_cso_cache_directory_created(tmp_path):
     loader = CSODataLoader(cache_dir=tmp_path / "cso_test")
     assert loader.cache_dir.exists()
 
-def test_cso_arrivals_filtering():
-    loader = CSODataLoader()
-    # Ensure cached or live fetch works and returns DataFrame
-    df = loader.get_port_arrivals()
-    assert isinstance(df, pd.DataFrame)
-    assert len(df) > 0
-    assert "port" in df.columns
-    assert "value" in df.columns
-    # Check that key ports are present
-    ports = df["port"].unique()
-    assert "Dublin" in ports or "IEDUB" in ports
 
-def test_cso_port_activity_matrix():
-    loader = CSODataLoader()
-    matrix = loader.build_port_activity_matrix()
-    assert isinstance(matrix, pd.DataFrame)
-    assert "year" in matrix.columns
-    assert "port" in matrix.columns
-    assert "vessel_arrivals" in matrix.columns
+def test_arrivals_use_vessel_count_only():
+    df = CSODataLoader().get_port_arrivals()
+    assert len(df) > 0
+    assert set(df["statistic"]) == {ARRIVALS}
+    assert "Dublin" in set(df["port"])
+
+
+def test_port_activity_matrix_has_plausible_values():
+    m = CSODataLoader().build_port_activity_matrix()
+    for col in ["vessel_arrivals", "roro_loaded_units", "gb_share"]:
+        assert col in m.columns
+    dublin = m[(m["port"] == "Dublin") & (m["year"] >= 2023)]
+    # Dublin handles roughly 1,500 to 2,000 vessel arrivals and 150k to 260k loaded Ro-Ro units per quarter.
+    assert dublin["vessel_arrivals"].dropna().between(1000, 2500).all()
+    assert dublin["roro_loaded_units"].between(150_000, 260_000).all()
+    assert m["gb_share"].dropna().between(0, 1).all()

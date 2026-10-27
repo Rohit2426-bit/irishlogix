@@ -1,140 +1,84 @@
-# IrishLogix: Coupled Predictive Delay Analytics & Carbon-Aware Route Optimisation
+# IrishLogix: Coupling Port and Customs Delay Prediction with Carbon-Aware Route Optimisation for Post-Brexit Irish Freight
 
-**MSc in Data Analytics: Research Practicum (MSCDAD_A_JAN26I)**  
-**National College of Ireland (NCI)**  
-**Student:** Rohitkumar Amritlal Jaiswal (Student ID: 25119613)  
-**Academic Supervisor:** Dr. Thanos Staikopoulos  
-**Date:** September 2026  
+**MSc in Data Analytics, Research Practicum (MSCDAD_A_JAN26I), National College of Ireland**
+**Student:** Rohitkumar Amritlal Jaiswal (x25119613)
+**Supervisor:** Dr. Athanasios Staikopoulos
 
----
+## Overview
 
-## 1. Project Overview & Research Context
+IrishLogix plans a day of import collections from Dublin Port and Rosslare Europort for a small haulage fleet. It has three components:
 
-**IrishLogix** is a closed-loop decision support system designed to bridge the void between **predictive delay forecasting** and **prescriptive vehicle route optimisation** across post-Brexit Irish freight corridors.
+1. **C1, port congestion classifier:** XGBoost predicts tomorrow's congestion class (Low, Medium, High) at each port from information known the evening before.
+2. **C2, customs clearance regressor:** XGBoost predicts each consignment's clearance time, with a 10th to 90th percentile range.
+3. **C3, carbon-aware optimiser:** NSGA-II (pymoo) chooses truck assignment, visiting order, route and speed, with driving-time breaks under Regulation (EC) No 561/2006. It returns a Pareto set of plans (cost against CO2) and picks one plan for a given ETS2 carbon price.
 
-Over 80% of Ireland's external freight moves through maritime ports (Dublin Port, Port of Cork, Rosslare Europort). Following the UK's departure from the EU single market and customs union, Irish freight hauliers face volatile port berth congestion and unpredictable customs inspection hold-ups. Combined with strict driver rest mandates under **Regulation (EC) No 561/2006** and impending carbon costs under **EU ETS2 (Directive 2023/959)** and **CSRD (Directive 2022/2464)**, traditional spreadsheet-based (FIFO) haulage planning causes severe vehicle gate idling, excess diesel consumption, and inflated operational costs.
+Daily port and customs data are not public, so the components are trained and tested in a **semi-synthetic world**. Quarterly CSO port statistics set the real levels, and the daily variation follows stated assumptions in `src/irishlogix/world/assumptions.py`.
 
-### Research Questions
-- **Primary Research Question (PRQ):** To what extent does an integrated decision-support system coupling machine learning delay predictions with carbon-aware multi-objective route optimisation outperform traditional spreadsheet-based planning in reducing vehicle waiting hours, operational costs, and carbon intensity across post-Brexit Irish freight corridors?
-- **SRQ 1 (Predictive Modeling):** How accurately can gradient-boosted models (XGBoost) predict next-day port congestion risk and customs clearance delays using open maritime and calibrated trade data?
-- **SRQ 2 (Prescriptive Coupling):** Does integrating stochastic upstream delay predictions into a bi-objective route optimizer deliver statistically significant reductions in vehicle idle waiting time and total transit cost compared to static FIFO planning?
-- **SRQ 3 (Decarbonisation & Policy):** How resilient is the generated Pareto frontier to fluctuating EU ETS2 carbon prices (EUR 40 to EUR 120 per tonne) in achieving CSRD-aligned fleet emissions reductions?
+## Research question
 
----
+To what extent does coupling predictions of port congestion and customs clearance delay with carbon-aware route optimisation reduce waiting time, cost and CO2, compared with spreadsheet (FIFO) planning?
 
-## 2. System Architecture
+- **SRQ1:** How accurately can the delays be predicted?
+- **SRQ2:** How much of the gain comes from the predictions, compared with FIFO and with the same optimiser using average delays?
+- **SRQ3:** How do the results change with the ETS2 carbon price and the customs check rate?
 
-IrishLogix operates across three tightly coupled technical components:
+## Main results (100 paired test days, 2025 to mid-2026)
 
-```
-┌────────────────────────────────────────────────────────┐
-│               IrishLogix Architecture                   │
-├────────────────────────────────────────────────────────┤
-│                                                        │
-│  [Open CSO PxStat API]      [Calibrated Customs Data]  │
-│  (TBQ01, TBQ04, TBQ05)      (CSO Trade Lane Matrix)   │
-│           │                               │            │
-│           ▼                               ▼            │
-│  ┌──────────────────┐           ┌──────────────────┐   │
-│  │   Component 1:   │           │   Component 2:   │   │
-│  │ Port Congestion  │           │  Customs Delay   │   │
-│  │ Classifier (XGB) │           │  Regressor (XGB) │   │
-│  └────────┬─────────┘           └────────┬─────────┘   │
-│           │ Dynamic Waiting Distributions│             │
-│           └──────────────┬───────────────┘             │
-│                          ▼                             │
-│             ┌─────────────────────────┐                │
-│             │      Component 3:       │                │
-│             │ Carbon-Aware Multi-Obj  │                │
-│             │ Pareto Optimizer (OSM)  │                │
-│             └────────────┬────────────┘                │
-│                          ▼                             │
-│             ┌─────────────────────────┐                │
-│             │ Interactive Dispatcher  │                │
-│             │ Dashboard (Streamlit)   │                │
-│             └─────────────────────────┘                │
-└────────────────────────────────────────────────────────┘
-```
+| Planner (mean per day, ETS2 EUR 80) | Cost (EUR) | Idle (h) | Rule violations (h) | CO2 (kg) |
+|---|---|---|---|---|
+| FIFO (spreadsheet) | 2,919 | 9.49 | 4.17 | 1,220 |
+| Optimiser with average delays | 2,677 | 5.89 | 0.20 | 1,158 |
+| Coupled (C1 + C2) | 2,698 | 5.91 | 0.20 | 1,160 |
+| Oracle (perfect information) | 2,675 | 5.36 | 0.21 | 1,158 |
 
-1. **Component 1 (C1: Port Congestion Classifier):** XGBoost classifier predicting next-day port congestion risk (Low, Medium, High) using CSO maritime traffic (arrivals, Ro-Ro units, tonnage) and EMODnet vessel density.
-2. **Component 2 (C2: Customs Delay Regressor):** XGBoost regressor predicting lane-specific customs clearance durations based on commodity risk (SPS/Agrifood vs manufactured) and post-Brexit trade origin.
-3. **Component 3 (C3: Bi-Objective Pareto Route Optimizer):** Mathematical optimization engine balancing freight transit cost (€) against tailpipe carbon intensity ($g\text{CO}_2\text{e/km}$) subject to EC 561/2006 driver break constraints.
+- Compared with FIFO, the coupled planner cuts cost by 7.6%, idle time by 38% and CO2 by 4.8% (Wilcoxon p < 0.001).
+- The predictions add no measurable value over average delays with 4 trucks (+0.8%, p = 0.98). Even perfect information is worth under 1%. With 3 trucks, the coupled planner captures about 89% of that value (not significant).
+- Between EUR 40 and EUR 500 per tonne, the carbon price barely changes routing. Eco speed only becomes the usual choice at EUR 1,000.
+- C1 macro-F1 is 0.63 (persistence 0.51). C2 MAE for GB loads is 0.60 h (group average 0.62 h), and its range covers 79% of actual clearance times.
 
----
+## Data
 
-## 3. Repository Structure
+| CSO table | Statistic used | Content |
+|---|---|---|
+| TBQ01 | TBQ01C01 | Vessel arrivals per quarter |
+| TBQ03 | TBQ03C05, TBQ03C07 | Ro-Ro freight units, loaded and empty |
+| TBQ04 | TBQ04C01 | Lo-Lo container units (reference only, not Ro-Ro) |
+| TBQ05, TBQ07 | Goods handled | Tonnage by region of trade (GB, EU) |
+
+Raw files are in `data/raw/cso/`. Each statistic is selected by its code, so counts and tonnages are never added together. Only public secondary data is used, and no personal data is processed.
+
+## Repository structure
 
 ```
-irishlogix/
-├── README.md                          # Project architecture and research documentation
-├── .gitignore                         # Version control exclusions
-├── data/
-│   ├── raw/cso/                       # Raw CSO PxStat tables (TBQ01, TBQ04, TBQ05)
-│   └── processed/                     # Cleaned activity matrices and benchmark outputs
-├── notebooks/
-│   └── 01_week1_data_ingestion_and_exploration.ipynb # Interactive analysis notebook
-├── src/irishlogix/
-│   ├── data/cso_loader.py             # CSO PxStat API data ingestion
-│   ├── network/corridor_network.py    # NetworkX Irish freight corridor network
-│   ├── simulation/baseline_dispatcher.py # FIFO baseline simulation benchmark
-│   └── utils/                         # Config, emissions, and cost metrics
-├── scripts/
-│   ├── run_data_ingestion.py          # CLI runner for CSO data ingestion
-│   └── run_baseline_benchmark.py      # CLI runner for baseline FIFO simulation
-└── tests/                             # Pytest automated test suite (9 passing tests)
+data/raw/cso/            raw CSO tables
+data/processed/          cleaned CSO series and quarterly activity matrix
+src/irishlogix/data/     CSO loader
+src/irishlogix/network/  11-hub Irish road network
+src/irishlogix/world/    simulation world and all assumptions
+src/irishlogix/models/   C1 and C2
+src/irishlogix/optim/    route options, fuel model, schedule simulator, planners, NSGA-II
+src/irishlogix/evaluation/ benchmark and paired statistical tests
+scripts/                 one script per pipeline step, plus run_all.py
+app/streamlit_app.py     decision-support dashboard
+tests/                   unit tests
+results/                 tables, saved models and figures
 ```
 
----
+## How to run
 
-## 4. Week 1 Technical Accomplishments & Milestone Status
+Use Python 3.14 with the pinned packages:
 
-- **Environment & Repository Setup:** Initialized Git version control and modular project architecture with automated testing harnesses.
-- **Automated Open Data Ingestion (`cso_loader.py`):** Successfully connected to the Central Statistics Office (CSO) PxStat REST API, downloading and parsing official maritime tables:
-  - `TBQ01`: 444 vessel arrival records across Dublin, Cork, Rosslare, Shannon Foynes, and Waterford.
-  - `TBQ04`: 2,331 Ro-Ro freight unit traffic records.
-  - `TBQ05`: 3,600 records of goods handled by port and trade region (Great Britain vs EU).
-- **Irish Freight Corridor Representation (`corridor_network.py`):** Implemented an undirected weighted network graph with 11 strategic nodes and 15 bidirectional corridor edges connecting key Irish ports and inland hubs.
-- **Baseline FIFO Dispatcher Simulator (`baseline_dispatcher.py`):** Built the empirical baseline model representing traditional unbuffered scheduling.
-- **Empirical Baseline Benchmark Results (N=50 test consignments):**
-  - **Total Distance:** 8,636.5 km
-  - **Active Driving Hours:** 104.4 hours
-  - **Idle Waiting Hours:** 63.5 hours (*Average 1.27 hours wasted per trip due to lack of predictive scheduling*)
-  - **Total Diesel Fuel:** 2,879.3 Litres
-  - **Total Carbon Footprint:** 7,601.3 kg $\text{CO}_2\text{e}$ (Average 919.0 $g\text{CO}_2\text{e/km}$)
-  - **Total Transport Operational Cost:** €14,791.21 (Average €295.82 per consignment)
-- **Automated Test Suite:** 9 out of 9 unit tests passing (`pytest tests -v`).
-
----
-
-## 5. Quickstart & How to Run
-
-### Installation
 ```bash
-# Clone the repository
-git clone https://github.com/Rohit2426-bit/irishlogix.git
-cd irishlogix
-
-# Install standard dependencies
-pip install pandas numpy scipy networkx requests matplotlib pytest
+python -m venv .venv
+.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest tests -q        # unit tests
+python scripts/run_all.py        # rebuild every result; timings go to results/pipeline_timings.csv
+streamlit run app/streamlit_app.py
 ```
 
-### Ingest CSO Maritime Data
-```bash
-python scripts/run_data_ingestion.py
-```
+The pipeline runs these steps in order: data ingestion, simulation world, C1, C2, planner benchmark, scenarios, optimiser study, figures and tests. Each script can also be run on its own. All random steps use fixed seeds, so results are repeatable. The configuration manual has the full details.
 
-### Run Baseline FIFO Benchmark
-```bash
-python scripts/run_baseline_benchmark.py
-```
+## Week 1 baseline
 
-### Run Automated Unit Tests
-```bash
-python -m pytest tests -v
-```
-
----
-
-## 6. Regulatory & Ethical Framework
-- **Data Governance:** Exclusively utilizes open secondary datasets (CSO, EMODnet AIS, OpenStreetMap) and calibrated synthetic trade distributions. No human participants or GDPR-sensitive driver telematics are used.
-- **Regulatory Grounding:** Integrates **Regulation (EC) No 561/2006** (driver rest break limits), **Directive (EU) 2022/2464 (CSRD)**, and **Directive (EU) 2023/959 (ETS2)** carbon price bands.
+`scripts/run_baseline_benchmark.py` and `src/irishlogix/simulation/` hold the first FIFO baseline from Week 1. The final evaluation uses the FIFO planner in `src/irishlogix/optim/planners.py`.

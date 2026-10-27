@@ -1,0 +1,556 @@
+statistic,statistic_label,tlist(q1),quarter,c02354v02832,direction,c01855v02284,port,unit,value,year,quarter_num
+TBQ04C01,Total Units (Number),20171,2017Q1,-,All directions,IEMIP,All Main Irish Ports,Number,126083.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,-,All directions,IEDUB,Dublin,Number,91877.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,-,All directions,IEORK,Cork,Number,29521.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,-,All directions,IEWAT,Waterford,Number,4685.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,1,Inward,IEMIP,All Main Irish Ports,Number,63173.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,1,Inward,IEDUB,Dublin,Number,46352.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,1,Inward,IEORK,Cork,Number,14496.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,1,Inward,IEWAT,Waterford,Number,2325.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,2,Outward,IEMIP,All Main Irish Ports,Number,62910.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,2,Outward,IEDUB,Dublin,Number,45525.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,2,Outward,IEORK,Cork,Number,15025.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,2,Outward,IEWAT,Waterford,Number,2360.0,2017,1
+TBQ04C01,Total Units (Number),20171,2017Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2017,1
+TBQ04C01,Total Units (Number),20172,2017Q2,-,All directions,IEMIP,All Main Irish Ports,Number,134949.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,-,All directions,IEDUB,Dublin,Number,97454.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,-,All directions,IEORK,Cork,Number,31959.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,-,All directions,IEWAT,Waterford,Number,5536.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,1,Inward,IEMIP,All Main Irish Ports,Number,67050.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,1,Inward,IEDUB,Dublin,Number,48431.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,1,Inward,IEORK,Cork,Number,15842.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,1,Inward,IEWAT,Waterford,Number,2777.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,2,Outward,IEMIP,All Main Irish Ports,Number,67899.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,2,Outward,IEDUB,Dublin,Number,49023.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,2,Outward,IEORK,Cork,Number,16117.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,2,Outward,IEWAT,Waterford,Number,2759.0,2017,2
+TBQ04C01,Total Units (Number),20172,2017Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2017,2
+TBQ04C01,Total Units (Number),20173,2017Q3,-,All directions,IEMIP,All Main Irish Ports,Number,136843.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,-,All directions,IEDUB,Dublin,Number,100963.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,-,All directions,IEORK,Cork,Number,30377.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,-,All directions,IEWAT,Waterford,Number,5503.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,1,Inward,IEMIP,All Main Irish Ports,Number,68480.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,1,Inward,IEDUB,Dublin,Number,50756.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,1,Inward,IEORK,Cork,Number,15057.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,1,Inward,IEWAT,Waterford,Number,2667.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,2,Outward,IEMIP,All Main Irish Ports,Number,68363.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,2,Outward,IEDUB,Dublin,Number,50207.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,2,Outward,IEORK,Cork,Number,15320.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,2,Outward,IEWAT,Waterford,Number,2836.0,2017,3
+TBQ04C01,Total Units (Number),20173,2017Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2017,3
+TBQ04C01,Total Units (Number),20174,2017Q4,-,All directions,IEMIP,All Main Irish Ports,Number,137591.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,-,All directions,IEDUB,Dublin,Number,102200.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,-,All directions,IEORK,Cork,Number,30622.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,-,All directions,IEWAT,Waterford,Number,4769.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,1,Inward,IEMIP,All Main Irish Ports,Number,67989.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,1,Inward,IEDUB,Dublin,Number,50280.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,1,Inward,IEORK,Cork,Number,15345.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,1,Inward,IEWAT,Waterford,Number,2364.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,2,Outward,IEMIP,All Main Irish Ports,Number,69602.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,2,Outward,IEDUB,Dublin,Number,51920.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,2,Outward,IEORK,Cork,Number,15277.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,2,Outward,IEWAT,Waterford,Number,2405.0,2017,4
+TBQ04C01,Total Units (Number),20174,2017Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2017,4
+TBQ04C01,Total Units (Number),20181,2018Q1,-,All directions,IEMIP,All Main Irish Ports,Number,133505.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,-,All directions,IEDUB,Dublin,Number,98411.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,-,All directions,IEORK,Cork,Number,30505.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,-,All directions,IEWAT,Waterford,Number,4589.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,1,Inward,IEMIP,All Main Irish Ports,Number,68587.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,1,Inward,IEDUB,Dublin,Number,50763.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,1,Inward,IEORK,Cork,Number,15534.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,1,Inward,IEWAT,Waterford,Number,2290.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,2,Outward,IEMIP,All Main Irish Ports,Number,64918.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,2,Outward,IEDUB,Dublin,Number,47648.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,2,Outward,IEORK,Cork,Number,14971.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,2,Outward,IEWAT,Waterford,Number,2299.0,2018,1
+TBQ04C01,Total Units (Number),20181,2018Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2018,1
+TBQ04C01,Total Units (Number),20182,2018Q2,-,All directions,IEMIP,All Main Irish Ports,Number,139174.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,-,All directions,IEDUB,Dublin,Number,100646.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,-,All directions,IEORK,Cork,Number,32888.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,-,All directions,IEWAT,Waterford,Number,5640.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,1,Inward,IEMIP,All Main Irish Ports,Number,68536.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,1,Inward,IEDUB,Dublin,Number,49489.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,1,Inward,IEORK,Cork,Number,16341.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,1,Inward,IEWAT,Waterford,Number,2706.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,2,Outward,IEMIP,All Main Irish Ports,Number,70638.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,2,Outward,IEDUB,Dublin,Number,51157.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,2,Outward,IEORK,Cork,Number,16547.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,2,Outward,IEWAT,Waterford,Number,2934.0,2018,2
+TBQ04C01,Total Units (Number),20182,2018Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2018,2
+TBQ04C01,Total Units (Number),20183,2018Q3,-,All directions,IEMIP,All Main Irish Ports,Number,144236.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,-,All directions,IEDUB,Dublin,Number,105839.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,-,All directions,IEORK,Cork,Number,32998.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,-,All directions,IEWAT,Waterford,Number,5399.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,1,Inward,IEMIP,All Main Irish Ports,Number,72914.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,1,Inward,IEDUB,Dublin,Number,53833.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,1,Inward,IEORK,Cork,Number,16351.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,1,Inward,IEWAT,Waterford,Number,2730.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,2,Outward,IEMIP,All Main Irish Ports,Number,71322.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,2,Outward,IEDUB,Dublin,Number,52006.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,2,Outward,IEORK,Cork,Number,16647.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,2,Outward,IEWAT,Waterford,Number,2669.0,2018,3
+TBQ04C01,Total Units (Number),20183,2018Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2018,3
+TBQ04C01,Total Units (Number),20184,2018Q4,-,All directions,IEMIP,All Main Irish Ports,Number,141201.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,-,All directions,IEDUB,Dublin,Number,102779.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,-,All directions,IEORK,Cork,Number,32815.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,-,All directions,IEWAT,Waterford,Number,5607.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,1,Inward,IEMIP,All Main Irish Ports,Number,71159.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,1,Inward,IEDUB,Dublin,Number,51894.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,1,Inward,IEORK,Cork,Number,16503.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,1,Inward,IEWAT,Waterford,Number,2762.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,2,Outward,IEMIP,All Main Irish Ports,Number,70042.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,2,Outward,IEDUB,Dublin,Number,50885.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,2,Outward,IEORK,Cork,Number,16312.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,2,Outward,IEWAT,Waterford,Number,2845.0,2018,4
+TBQ04C01,Total Units (Number),20184,2018Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2018,4
+TBQ04C01,Total Units (Number),20191,2019Q1,-,All directions,IEMIP,All Main Irish Ports,Number,143434.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,-,All directions,IEDUB,Dublin,Number,106411.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,-,All directions,IEORK,Cork,Number,31846.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,-,All directions,IEWAT,Waterford,Number,5177.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,1,Inward,IEMIP,All Main Irish Ports,Number,73651.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,1,Inward,IEDUB,Dublin,Number,55279.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,1,Inward,IEORK,Cork,Number,15780.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,1,Inward,IEWAT,Waterford,Number,2592.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,2,Outward,IEMIP,All Main Irish Ports,Number,69783.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,2,Outward,IEDUB,Dublin,Number,51132.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,2,Outward,IEORK,Cork,Number,16066.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,2,Outward,IEWAT,Waterford,Number,2585.0,2019,1
+TBQ04C01,Total Units (Number),20191,2019Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2019,1
+TBQ04C01,Total Units (Number),20192,2019Q2,-,All directions,IEMIP,All Main Irish Ports,Number,154081.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,-,All directions,IEDUB,Dublin,Number,112753.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,-,All directions,IEORK,Cork,Number,35487.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,-,All directions,IEWAT,Waterford,Number,5841.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,1,Inward,IEMIP,All Main Irish Ports,Number,77329.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,1,Inward,IEDUB,Dublin,Number,56496.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,1,Inward,IEORK,Cork,Number,17885.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,1,Inward,IEWAT,Waterford,Number,2948.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,2,Outward,IEMIP,All Main Irish Ports,Number,76752.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,2,Outward,IEDUB,Dublin,Number,56257.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,2,Outward,IEORK,Cork,Number,17602.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,2,Outward,IEWAT,Waterford,Number,2893.0,2019,2
+TBQ04C01,Total Units (Number),20192,2019Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2019,2
+TBQ04C01,Total Units (Number),20193,2019Q3,-,All directions,IEMIP,All Main Irish Ports,Number,148186.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,-,All directions,IEDUB,Dublin,Number,107417.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,-,All directions,IEORK,Cork,Number,34237.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,-,All directions,IEWAT,Waterford,Number,6532.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,1,Inward,IEMIP,All Main Irish Ports,Number,74554.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,1,Inward,IEDUB,Dublin,Number,54368.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,1,Inward,IEORK,Cork,Number,16819.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,1,Inward,IEWAT,Waterford,Number,3367.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,2,Outward,IEMIP,All Main Irish Ports,Number,73632.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,2,Outward,IEDUB,Dublin,Number,53049.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,2,Outward,IEORK,Cork,Number,17418.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,2,Outward,IEWAT,Waterford,Number,3165.0,2019,3
+TBQ04C01,Total Units (Number),20193,2019Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2019,3
+TBQ04C01,Total Units (Number),20194,2019Q4,-,All directions,IEMIP,All Main Irish Ports,Number,145601.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,-,All directions,IEDUB,Dublin,Number,105957.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,-,All directions,IEORK,Cork,Number,32986.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,-,All directions,IEWAT,Waterford,Number,6658.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,1,Inward,IEMIP,All Main Irish Ports,Number,72565.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,1,Inward,IEDUB,Dublin,Number,52922.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,1,Inward,IEORK,Cork,Number,16208.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,1,Inward,IEWAT,Waterford,Number,3435.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,2,Outward,IEMIP,All Main Irish Ports,Number,73036.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,2,Outward,IEDUB,Dublin,Number,53035.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,2,Outward,IEORK,Cork,Number,16778.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,2,Outward,IEWAT,Waterford,Number,3223.0,2019,4
+TBQ04C01,Total Units (Number),20194,2019Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2019,4
+TBQ04C01,Total Units (Number),20201,2020Q1,-,All directions,IEMIP,All Main Irish Ports,Number,141411.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,-,All directions,IEDUB,Dublin,Number,104837.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,-,All directions,IEORK,Cork,Number,30226.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,-,All directions,IEWAT,Waterford,Number,6348.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,1,Inward,IEMIP,All Main Irish Ports,Number,73464.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,1,Inward,IEDUB,Dublin,Number,54657.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,1,Inward,IEORK,Cork,Number,15530.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,1,Inward,IEWAT,Waterford,Number,3277.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,2,Outward,IEMIP,All Main Irish Ports,Number,67947.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,2,Outward,IEDUB,Dublin,Number,50180.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,2,Outward,IEORK,Cork,Number,14696.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,2,Outward,IEWAT,Waterford,Number,3071.0,2020,1
+TBQ04C01,Total Units (Number),20201,2020Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2020,1
+TBQ04C01,Total Units (Number),20202,2020Q2,-,All directions,IEMIP,All Main Irish Ports,Number,138071.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,-,All directions,IEDUB,Dublin,Number,95988.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,-,All directions,IEORK,Cork,Number,36033.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,-,All directions,IEWAT,Waterford,Number,6050.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,1,Inward,IEMIP,All Main Irish Ports,Number,69008.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,1,Inward,IEDUB,Dublin,Number,48290.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,1,Inward,IEORK,Cork,Number,17648.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,1,Inward,IEWAT,Waterford,Number,3070.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,2,Outward,IEMIP,All Main Irish Ports,Number,69063.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,2,Outward,IEDUB,Dublin,Number,47698.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,2,Outward,IEORK,Cork,Number,18385.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,2,Outward,IEWAT,Waterford,Number,2980.0,2020,2
+TBQ04C01,Total Units (Number),20202,2020Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2020,2
+TBQ04C01,Total Units (Number),20203,2020Q3,-,All directions,IEMIP,All Main Irish Ports,Number,152021.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,-,All directions,IEDUB,Dublin,Number,108288.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,-,All directions,IEORK,Cork,Number,36554.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,-,All directions,IEWAT,Waterford,Number,7179.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,1,Inward,IEMIP,All Main Irish Ports,Number,78730.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,1,Inward,IEDUB,Dublin,Number,56581.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,1,Inward,IEORK,Cork,Number,18377.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,1,Inward,IEWAT,Waterford,Number,3772.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,2,Outward,IEMIP,All Main Irish Ports,Number,73291.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,2,Outward,IEDUB,Dublin,Number,51707.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,2,Outward,IEORK,Cork,Number,18177.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,2,Outward,IEWAT,Waterford,Number,3407.0,2020,3
+TBQ04C01,Total Units (Number),20203,2020Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2020,3
+TBQ04C01,Total Units (Number),20204,2020Q4,-,All directions,IEMIP,All Main Irish Ports,Number,156217.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,-,All directions,IEDUB,Dublin,Number,114676.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,-,All directions,IEORK,Cork,Number,36122.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,-,All directions,IEWAT,Waterford,Number,5419.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,1,Inward,IEMIP,All Main Irish Ports,Number,78727.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,1,Inward,IEDUB,Dublin,Number,58618.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,1,Inward,IEORK,Cork,Number,17549.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,1,Inward,IEWAT,Waterford,Number,2560.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,2,Outward,IEMIP,All Main Irish Ports,Number,77490.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,2,Outward,IEDUB,Dublin,Number,56058.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,2,Outward,IEORK,Cork,Number,18573.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,2,Outward,IEWAT,Waterford,Number,2859.0,2020,4
+TBQ04C01,Total Units (Number),20204,2020Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2020,4
+TBQ04C01,Total Units (Number),20211,2021Q1,-,All directions,IEMIP,All Main Irish Ports,Number,155628.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,-,All directions,IEDUB,Dublin,Number,114846.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,-,All directions,IEORK,Cork,Number,34866.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,-,All directions,IEWAT,Waterford,Number,5916.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,1,Inward,IEMIP,All Main Irish Ports,Number,80274.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,1,Inward,IEDUB,Dublin,Number,59990.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,1,Inward,IEORK,Cork,Number,17314.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,1,Inward,IEWAT,Waterford,Number,2970.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,2,Outward,IEMIP,All Main Irish Ports,Number,75354.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,2,Outward,IEDUB,Dublin,Number,54856.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,2,Outward,IEORK,Cork,Number,17552.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,2,Outward,IEWAT,Waterford,Number,2946.0,2021,1
+TBQ04C01,Total Units (Number),20211,2021Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2021,1
+TBQ04C01,Total Units (Number),20212,2021Q2,-,All directions,IEMIP,All Main Irish Ports,Number,168153.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,-,All directions,IEDUB,Dublin,Number,120919.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,-,All directions,IEORK,Cork,Number,41167.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,-,All directions,IEWAT,Waterford,Number,6067.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,1,Inward,IEMIP,All Main Irish Ports,Number,84666.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,1,Inward,IEDUB,Dublin,Number,61476.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,1,Inward,IEORK,Cork,Number,20191.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,1,Inward,IEWAT,Waterford,Number,2999.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,2,Outward,IEMIP,All Main Irish Ports,Number,83487.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,2,Outward,IEDUB,Dublin,Number,59443.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,2,Outward,IEORK,Cork,Number,20976.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,2,Outward,IEWAT,Waterford,Number,3068.0,2021,2
+TBQ04C01,Total Units (Number),20212,2021Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2021,2
+TBQ04C01,Total Units (Number),20213,2021Q3,-,All directions,IEMIP,All Main Irish Ports,Number,166228.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,-,All directions,IEDUB,Dublin,Number,118350.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,-,All directions,IEORK,Cork,Number,41613.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,-,All directions,IEWAT,Waterford,Number,6265.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,1,Inward,IEMIP,All Main Irish Ports,Number,84499.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,1,Inward,IEDUB,Dublin,Number,60583.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,1,Inward,IEORK,Cork,Number,20807.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,1,Inward,IEWAT,Waterford,Number,3109.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,2,Outward,IEMIP,All Main Irish Ports,Number,81729.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,2,Outward,IEDUB,Dublin,Number,57767.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,2,Outward,IEORK,Cork,Number,20806.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,2,Outward,IEWAT,Waterford,Number,3156.0,2021,3
+TBQ04C01,Total Units (Number),20213,2021Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2021,3
+TBQ04C01,Total Units (Number),20214,2021Q4,-,All directions,IEMIP,All Main Irish Ports,Number,157627.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,-,All directions,IEDUB,Dublin,Number,113508.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,-,All directions,IEORK,Cork,Number,37987.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,-,All directions,IEWAT,Waterford,Number,6132.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,1,Inward,IEMIP,All Main Irish Ports,Number,81490.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,1,Inward,IEDUB,Dublin,Number,59015.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,1,Inward,IEORK,Cork,Number,19406.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,1,Inward,IEWAT,Waterford,Number,3069.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,2,Outward,IEMIP,All Main Irish Ports,Number,76137.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,2,Outward,IEDUB,Dublin,Number,54493.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,2,Outward,IEORK,Cork,Number,18581.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,2,Outward,IEWAT,Waterford,Number,3063.0,2021,4
+TBQ04C01,Total Units (Number),20214,2021Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2021,4
+TBQ04C01,Total Units (Number),20221,2022Q1,-,All directions,IEMIP,All Main Irish Ports,Number,156122.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,-,All directions,IEDUB,Dublin,Number,112031.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,-,All directions,IEORK,Cork,Number,38516.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,-,All directions,IEWAT,Waterford,Number,5575.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,1,Inward,IEMIP,All Main Irish Ports,Number,79638.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,1,Inward,IEDUB,Dublin,Number,57562.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,1,Inward,IEORK,Cork,Number,19207.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,1,Inward,IEWAT,Waterford,Number,2869.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,2,Outward,IEMIP,All Main Irish Ports,Number,76484.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,2,Outward,IEDUB,Dublin,Number,54469.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,2,Outward,IEORK,Cork,Number,19309.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,2,Outward,IEWAT,Waterford,Number,2706.0,2022,1
+TBQ04C01,Total Units (Number),20221,2022Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2022,1
+TBQ04C01,Total Units (Number),20222,2022Q2,-,All directions,IEMIP,All Main Irish Ports,Number,171752.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,-,All directions,IEDUB,Dublin,Number,124062.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,-,All directions,IEORK,Cork,Number,41030.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,-,All directions,IEWAT,Waterford,Number,6660.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,1,Inward,IEMIP,All Main Irish Ports,Number,85402.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,1,Inward,IEDUB,Dublin,Number,61880.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,1,Inward,IEORK,Cork,Number,20313.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,1,Inward,IEWAT,Waterford,Number,3209.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,2,Outward,IEMIP,All Main Irish Ports,Number,86350.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,2,Outward,IEDUB,Dublin,Number,62182.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,2,Outward,IEORK,Cork,Number,20717.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,2,Outward,IEWAT,Waterford,Number,3451.0,2022,2
+TBQ04C01,Total Units (Number),20222,2022Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2022,2
+TBQ04C01,Total Units (Number),20223,2022Q3,-,All directions,IEMIP,All Main Irish Ports,Number,161300.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,-,All directions,IEDUB,Dublin,Number,115760.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,-,All directions,IEORK,Cork,Number,39548.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,-,All directions,IEWAT,Waterford,Number,5992.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,1,Inward,IEMIP,All Main Irish Ports,Number,81484.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,1,Inward,IEDUB,Dublin,Number,58724.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,1,Inward,IEORK,Cork,Number,19824.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,1,Inward,IEWAT,Waterford,Number,2936.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,2,Outward,IEMIP,All Main Irish Ports,Number,79816.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,2,Outward,IEDUB,Dublin,Number,57036.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,2,Outward,IEORK,Cork,Number,19724.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,2,Outward,IEWAT,Waterford,Number,3056.0,2022,3
+TBQ04C01,Total Units (Number),20223,2022Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2022,3
+TBQ04C01,Total Units (Number),20224,2022Q4,-,All directions,IEMIP,All Main Irish Ports,Number,145593.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,-,All directions,IEDUB,Dublin,Number,103874.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,-,All directions,IEORK,Cork,Number,35959.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,-,All directions,IEWAT,Waterford,Number,5760.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,1,Inward,IEMIP,All Main Irish Ports,Number,72669.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,1,Inward,IEDUB,Dublin,Number,51987.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,1,Inward,IEORK,Cork,Number,17808.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,1,Inward,IEWAT,Waterford,Number,2874.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,2,Outward,IEMIP,All Main Irish Ports,Number,72924.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,2,Outward,IEDUB,Dublin,Number,51887.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,2,Outward,IEORK,Cork,Number,18151.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,2,Outward,IEWAT,Waterford,Number,2886.0,2022,4
+TBQ04C01,Total Units (Number),20224,2022Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2022,4
+TBQ04C01,Total Units (Number),20231,2023Q1,-,All directions,IEMIP,All Main Irish Ports,Number,145026.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,-,All directions,IEDUB,Dublin,Number,105860.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,-,All directions,IEORK,Cork,Number,35113.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,-,All directions,IEWAT,Waterford,Number,4053.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,1,Inward,IEMIP,All Main Irish Ports,Number,73535.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,1,Inward,IEDUB,Dublin,Number,53662.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,1,Inward,IEORK,Cork,Number,17876.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,1,Inward,IEWAT,Waterford,Number,1997.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,2,Outward,IEMIP,All Main Irish Ports,Number,71491.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,2,Outward,IEDUB,Dublin,Number,52198.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,2,Outward,IEORK,Cork,Number,17237.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,2,Outward,IEWAT,Waterford,Number,2056.0,2023,1
+TBQ04C01,Total Units (Number),20231,2023Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2023,1
+TBQ04C01,Total Units (Number),20232,2023Q2,-,All directions,IEMIP,All Main Irish Ports,Number,152295.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,-,All directions,IEDUB,Dublin,Number,109788.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,-,All directions,IEORK,Cork,Number,37299.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,-,All directions,IEWAT,Waterford,Number,5208.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,1,Inward,IEMIP,All Main Irish Ports,Number,78373.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,1,Inward,IEDUB,Dublin,Number,57534.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,1,Inward,IEORK,Cork,Number,18327.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,1,Inward,IEWAT,Waterford,Number,2512.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,2,Outward,IEMIP,All Main Irish Ports,Number,73922.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,2,Outward,IEDUB,Dublin,Number,52254.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,2,Outward,IEORK,Cork,Number,18972.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,2,Outward,IEWAT,Waterford,Number,2696.0,2023,2
+TBQ04C01,Total Units (Number),20232,2023Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2023,2
+TBQ04C01,Total Units (Number),20233,2023Q3,-,All directions,IEMIP,All Main Irish Ports,Number,154081.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,-,All directions,IEDUB,Dublin,Number,113095.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,-,All directions,IEORK,Cork,Number,36233.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,-,All directions,IEWAT,Waterford,Number,4753.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,1,Inward,IEMIP,All Main Irish Ports,Number,78632.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,1,Inward,IEDUB,Dublin,Number,58135.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,1,Inward,IEORK,Cork,Number,18163.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,1,Inward,IEWAT,Waterford,Number,2334.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,2,Outward,IEMIP,All Main Irish Ports,Number,75449.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,2,Outward,IEDUB,Dublin,Number,54960.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,2,Outward,IEORK,Cork,Number,18070.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,2,Outward,IEWAT,Waterford,Number,2419.0,2023,3
+TBQ04C01,Total Units (Number),20233,2023Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2023,3
+TBQ04C01,Total Units (Number),20234,2023Q4,-,All directions,IEMIP,All Main Irish Ports,Number,153857.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,-,All directions,IEDUB,Dublin,Number,112914.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,-,All directions,IEORK,Cork,Number,36800.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,-,All directions,IEWAT,Waterford,Number,4143.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,1,Inward,IEMIP,All Main Irish Ports,Number,78122.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,1,Inward,IEDUB,Dublin,Number,57835.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,1,Inward,IEORK,Cork,Number,18206.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,1,Inward,IEWAT,Waterford,Number,2081.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,2,Outward,IEMIP,All Main Irish Ports,Number,75735.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,2,Outward,IEDUB,Dublin,Number,55079.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,2,Outward,IEORK,Cork,Number,18594.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,2,Outward,IEWAT,Waterford,Number,2062.0,2023,4
+TBQ04C01,Total Units (Number),20234,2023Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2023,4
+TBQ04C01,Total Units (Number),20241,2024Q1,-,All directions,IEMIP,All Main Irish Ports,Number,153177.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,-,All directions,IEDUB,Dublin,Number,112492.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,-,All directions,IEORK,Cork,Number,36813.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,-,All directions,IEWAT,Waterford,Number,3872.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,-,All directions,IEFOV,Shannon Foynes,Number,,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,1,Inward,IEMIP,All Main Irish Ports,Number,77673.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,1,Inward,IEDUB,Dublin,Number,57373.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,1,Inward,IEORK,Cork,Number,18370.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,1,Inward,IEWAT,Waterford,Number,1930.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,2,Outward,IEMIP,All Main Irish Ports,Number,75504.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,2,Outward,IEDUB,Dublin,Number,55119.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,2,Outward,IEORK,Cork,Number,18443.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,2,Outward,IEWAT,Waterford,Number,1942.0,2024,1
+TBQ04C01,Total Units (Number),20241,2024Q1,2,Outward,IEFOV,Shannon Foynes,Number,,2024,1
+TBQ04C01,Total Units (Number),20242,2024Q2,-,All directions,IEMIP,All Main Irish Ports,Number,166869.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,-,All directions,IEDUB,Dublin,Number,122491.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,-,All directions,IEORK,Cork,Number,38369.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,-,All directions,IEWAT,Waterford,Number,6009.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,-,All directions,IEFOV,Shannon Foynes,Number,,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,1,Inward,IEMIP,All Main Irish Ports,Number,83335.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,1,Inward,IEDUB,Dublin,Number,61635.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,1,Inward,IEORK,Cork,Number,18750.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,1,Inward,IEWAT,Waterford,Number,2950.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,1,Inward,IEFOV,Shannon Foynes,Number,,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,2,Outward,IEMIP,All Main Irish Ports,Number,83534.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,2,Outward,IEDUB,Dublin,Number,60856.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,2,Outward,IEORK,Cork,Number,19619.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,2,Outward,IEWAT,Waterford,Number,3059.0,2024,2
+TBQ04C01,Total Units (Number),20242,2024Q2,2,Outward,IEFOV,Shannon Foynes,Number,,2024,2
+TBQ04C01,Total Units (Number),20243,2024Q3,-,All directions,IEMIP,All Main Irish Ports,Number,174962.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,-,All directions,IEDUB,Dublin,Number,129014.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,-,All directions,IEORK,Cork,Number,39718.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,-,All directions,IEWAT,Waterford,Number,6230.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,-,All directions,IEFOV,Shannon Foynes,Number,,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,1,Inward,IEMIP,All Main Irish Ports,Number,89511.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,1,Inward,IEDUB,Dublin,Number,66095.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,1,Inward,IEORK,Cork,Number,20329.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,1,Inward,IEWAT,Waterford,Number,3087.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,1,Inward,IEFOV,Shannon Foynes,Number,,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,2,Outward,IEMIP,All Main Irish Ports,Number,85451.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,2,Outward,IEDUB,Dublin,Number,62919.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,2,Outward,IEORK,Cork,Number,19389.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,2,Outward,IEWAT,Waterford,Number,3143.0,2024,3
+TBQ04C01,Total Units (Number),20243,2024Q3,2,Outward,IEFOV,Shannon Foynes,Number,,2024,3
+TBQ04C01,Total Units (Number),20244,2024Q4,-,All directions,IEMIP,All Main Irish Ports,Number,168737.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,-,All directions,IEDUB,Dublin,Number,125012.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,-,All directions,IEORK,Cork,Number,37845.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,-,All directions,IEWAT,Waterford,Number,5880.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,-,All directions,IEFOV,Shannon Foynes,Number,,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,1,Inward,IEMIP,All Main Irish Ports,Number,85331.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,1,Inward,IEDUB,Dublin,Number,63859.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,1,Inward,IEORK,Cork,Number,18604.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,1,Inward,IEWAT,Waterford,Number,2868.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,1,Inward,IEFOV,Shannon Foynes,Number,,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,2,Outward,IEMIP,All Main Irish Ports,Number,83406.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,2,Outward,IEDUB,Dublin,Number,61153.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,2,Outward,IEORK,Cork,Number,19241.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,2,Outward,IEWAT,Waterford,Number,3012.0,2024,4
+TBQ04C01,Total Units (Number),20244,2024Q4,2,Outward,IEFOV,Shannon Foynes,Number,,2024,4
+TBQ04C01,Total Units (Number),20251,2025Q1,-,All directions,IEMIP,All Main Irish Ports,Number,169842.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,-,All directions,IEDUB,Dublin,Number,124848.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,-,All directions,IEORK,Cork,Number,38381.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,-,All directions,IEWAT,Waterford,Number,4681.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,-,All directions,IEFOV,Shannon Foynes,Number,1932.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,1,Inward,IEMIP,All Main Irish Ports,Number,87092.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,1,Inward,IEDUB,Dublin,Number,64200.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,1,Inward,IEORK,Cork,Number,19586.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,1,Inward,IEWAT,Waterford,Number,2376.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,1,Inward,IEFOV,Shannon Foynes,Number,930.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,2,Outward,IEMIP,All Main Irish Ports,Number,82750.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,2,Outward,IEDUB,Dublin,Number,60648.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,2,Outward,IEORK,Cork,Number,18795.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,2,Outward,IEWAT,Waterford,Number,2305.0,2025,1
+TBQ04C01,Total Units (Number),20251,2025Q1,2,Outward,IEFOV,Shannon Foynes,Number,1002.0,2025,1
+TBQ04C01,Total Units (Number),20252,2025Q2,-,All directions,IEMIP,All Main Irish Ports,Number,186285.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,-,All directions,IEDUB,Dublin,Number,138080.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,-,All directions,IEORK,Cork,Number,41193.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,-,All directions,IEWAT,Waterford,Number,6569.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,-,All directions,IEFOV,Shannon Foynes,Number,443.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,1,Inward,IEMIP,All Main Irish Ports,Number,93799.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,1,Inward,IEDUB,Dublin,Number,69141.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,1,Inward,IEORK,Cork,Number,21088.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,1,Inward,IEWAT,Waterford,Number,3233.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,1,Inward,IEFOV,Shannon Foynes,Number,337.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,2,Outward,IEMIP,All Main Irish Ports,Number,92486.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,2,Outward,IEDUB,Dublin,Number,68939.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,2,Outward,IEORK,Cork,Number,20105.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,2,Outward,IEWAT,Waterford,Number,3336.0,2025,2
+TBQ04C01,Total Units (Number),20252,2025Q2,2,Outward,IEFOV,Shannon Foynes,Number,106.0,2025,2
+TBQ04C01,Total Units (Number),20253,2025Q3,-,All directions,IEMIP,All Main Irish Ports,Number,179879.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,-,All directions,IEDUB,Dublin,Number,133450.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,-,All directions,IEORK,Cork,Number,39755.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,-,All directions,IEWAT,Waterford,Number,6106.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,-,All directions,IEFOV,Shannon Foynes,Number,568.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,1,Inward,IEMIP,All Main Irish Ports,Number,90758.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,1,Inward,IEDUB,Dublin,Number,68389.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,1,Inward,IEORK,Cork,Number,19003.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,1,Inward,IEWAT,Waterford,Number,3022.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,1,Inward,IEFOV,Shannon Foynes,Number,344.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,2,Outward,IEMIP,All Main Irish Ports,Number,89121.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,2,Outward,IEDUB,Dublin,Number,65061.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,2,Outward,IEORK,Cork,Number,20752.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,2,Outward,IEWAT,Waterford,Number,3084.0,2025,3
+TBQ04C01,Total Units (Number),20253,2025Q3,2,Outward,IEFOV,Shannon Foynes,Number,224.0,2025,3
+TBQ04C01,Total Units (Number),20254,2025Q4,-,All directions,IEMIP,All Main Irish Ports,Number,179064.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,-,All directions,IEDUB,Dublin,Number,132683.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,-,All directions,IEORK,Cork,Number,40560.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,-,All directions,IEWAT,Waterford,Number,5076.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,-,All directions,IEFOV,Shannon Foynes,Number,745.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,1,Inward,IEMIP,All Main Irish Ports,Number,92108.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,1,Inward,IEDUB,Dublin,Number,69065.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,1,Inward,IEORK,Cork,Number,20146.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,1,Inward,IEWAT,Waterford,Number,2488.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,1,Inward,IEFOV,Shannon Foynes,Number,409.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,2,Outward,IEMIP,All Main Irish Ports,Number,86956.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,2,Outward,IEDUB,Dublin,Number,63618.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,2,Outward,IEORK,Cork,Number,20414.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,2,Outward,IEWAT,Waterford,Number,2588.0,2025,4
+TBQ04C01,Total Units (Number),20254,2025Q4,2,Outward,IEFOV,Shannon Foynes,Number,336.0,2025,4
+TBQ04C01,Total Units (Number),20261,2026Q1,-,All directions,IEMIP,All Main Irish Ports,Number,171887.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,-,All directions,IEDUB,Dublin,Number,128876.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,-,All directions,IEORK,Cork,Number,38525.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,-,All directions,IEWAT,Waterford,Number,4038.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,-,All directions,IEFOV,Shannon Foynes,Number,448.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,1,Inward,IEMIP,All Main Irish Ports,Number,87248.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,1,Inward,IEDUB,Dublin,Number,65932.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,1,Inward,IEORK,Cork,Number,19227.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,1,Inward,IEWAT,Waterford,Number,2089.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,1,Inward,IEFOV,Shannon Foynes,Number,,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,2,Outward,IEMIP,All Main Irish Ports,Number,84639.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,2,Outward,IEDUB,Dublin,Number,62944.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,2,Outward,IEORK,Cork,Number,19298.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,2,Outward,IEWAT,Waterford,Number,1949.0,2026,1
+TBQ04C01,Total Units (Number),20261,2026Q1,2,Outward,IEFOV,Shannon Foynes,Number,448.0,2026,1

@@ -1,0 +1,4 @@
+model,MAE_h,RMSE_h,R2
+Group mean (spreadsheet),0.2968,0.6011,0.3877
+Linear regression,0.3174,0.601,0.3878
+XGBoost,0.2894,0.5918,0.4066

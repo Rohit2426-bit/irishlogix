@@ -1,0 +1,4 @@
+budget,evaluations,mean_gap_pct,max_gap_pct,seconds,sd_across_seeds_eur
+120x200,24000,0.0,0.0,1.822,0.0
+40x50,2000,0.312,3.503,0.174,6.99
+80x100,8000,0.018,0.477,0.627,0.69

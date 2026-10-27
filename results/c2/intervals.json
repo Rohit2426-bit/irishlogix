@@ -1,0 +1,16 @@
+{
+ "all": {
+  "coverage_q10_q90": 0.7902,
+  "mean_width_h": 0.8259,
+  "pinball_q10": 0.034,
+  "pinball_q50": 0.1253,
+  "pinball_q90": 0.0975
+ },
+ "gb_only": {
+  "coverage_q10_q90": 0.7907,
+  "mean_width_h": 1.6996,
+  "pinball_q10": 0.0676,
+  "pinball_q50": 0.2569,
+  "pinball_q90": 0.2094
+ }
+}

@@ -1,0 +1,16 @@
+,mean_abs_shap
+arrivals_vs_28d,0.37469822
+index_lag1,0.33489338
+units_lag1,0.2533037
+dow,0.1349638
+class_lag1,0.12234031
+index_mean7,0.09435216
+index_lag2,0.076535374
+units_prev_quarter,0.06140128
+units_mean7,0.0586077
+disruption_warning,0.053203743
+month,0.048204884
+index_lag7,0.041204445
+scheduled_arrivals,0.033850685
+is_holiday,0.015071263
+is_dublin,0.009864168

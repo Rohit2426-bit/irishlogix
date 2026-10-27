@@ -1,0 +1,10 @@
+step,command,seconds,status
+CSO data ingestion,python scripts/run_data_ingestion.py,1.0,ok
+Simulation world,python scripts/run_world.py,8.3,ok
+C1 port congestion model,python scripts/run_c1.py,17.3,ok
+C2 customs clearance model,python scripts/run_c2.py,15.4,ok
+Planner benchmark (100 days),python scripts/run_benchmark.py,5787.3,ok
+"Scenarios (tight fleet, carbon price)",python scripts/run_scenarios.py,332.6,ok
+Optimiser study,python scripts/run_optimiser_study.py,140.3,ok
+Figures,python scripts/make_figures.py,21.4,ok
+Unit tests,python -m pytest tests -q -p no:cacheprovider,5.5,ok
