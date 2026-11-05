@@ -1,0 +1,4 @@
+# Keep line endings consistent between Windows and other systems
+* text=auto
+*.png binary
+*.json text
