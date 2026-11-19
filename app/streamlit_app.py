@@ -73,7 +73,9 @@ with tab_plan:
         st.markdown("**C1: port congestion tomorrow**")
         st.dataframe(pd.DataFrame(rows).style.format({"Low": "{:.0%}", "Medium": "{:.0%}", "High": "{:.0%}"}), hide_index=True)
     with col2:
-        view = cons[["consignment_id", "port", "origin_gb", "commodity", "prelodged", "vessel_hour", "destination", "deadline_hour"]].copy()
+        view = cons[["consignment_id", "port", "commodity"]].copy()
+        view.insert(2, "From GB", cons["origin_gb"].map({True: "Yes", False: "No", 1: "Yes", 0: "No"}))
+        view["Pre-lodged"] = cons["prelodged"].map({True: "Yes", False: "No", 1: "Yes", 0: "No"})
         view["C2 clearance (h)"] = c2p["pred_mean"].round(2)
         view["C2 range (h)"] = c2p["pred_q10"].round(2).astype(str) + " to " + c2p["pred_q90"].round(2).astype(str)
         view["Actual clearance (h)"] = cons["true_clearance_hours"].round(2)
@@ -113,7 +115,7 @@ with tab_plan:
                           "Arrive port": f"{r['arrive']:.2f}", "Idle (h)": round(r["idle"], 2), "Deliver": f"{r['deliver']:.2f}",
                           "Late (h)": round(r["late"], 2), "Route": r["route"]})
     st.dataframe(pd.DataFrame(sched), hide_index=True)
-    m = folium.Map(location=[53.1, -7.6], zoom_start=7, tiles="cartodbpositron")
+    m = folium.Map(location=[53.1, -7.6], zoom_start=7, tiles="OpenStreetMap")
     colours = ["#2a78d6", "#eb6834", "#1baf7a", "#4a3aa7"]
     for t, seq in enumerate(plan.trucks):
         for i in seq:

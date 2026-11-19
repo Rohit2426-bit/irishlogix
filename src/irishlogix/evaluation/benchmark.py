@@ -29,6 +29,7 @@ class Context:
     clearance_group_mean: pd.Series
     clearance_overall_mean: float
     class_freq: pd.DataFrame
+    clearance_group_q90: pd.Series = None
 
 
 def load_context(world_dir="data/world", c1_dir="results/c1") -> Context:
@@ -40,8 +41,8 @@ def load_context(world_dir="data/world", c1_dir="results/c1") -> Context:
     model = c2.C2Model().fit(trval)
     known = port_days[port_days["date"] <= A.VALID_END]
     freq = known.groupby("port")["congestion_class"].value_counts(normalize=True).unstack().fillna(0)
-    return Context(port_days, probs, model, trval.groupby(c2.GROUP_KEYS)["clearance_hours"].mean(),
-                   float(trval["clearance_hours"].mean()), freq)
+    grp = trval.groupby(c2.GROUP_KEYS)["clearance_hours"]
+    return Context(port_days, probs, model, grp.mean(), float(trval["clearance_hours"].mean()), freq, grp.quantile(0.9))
 
 
 def test_days(ctx: Context, n: int = 100, seed: int = 11) -> List[pd.Timestamp]:
@@ -53,14 +54,23 @@ def test_days(ctx: Context, n: int = 100, seed: int = 11) -> List[pd.Timestamp]:
 def planner_estimates(ctx: Context, cons: pd.DataFrame, day: pd.Timestamp) -> Dict[str, P.Delays]:
     avg_clear = np.array([ctx.clearance_group_mean.get((int(g), c, int(p)), ctx.clearance_overall_mean)
                           for g, c, p in zip(cons["origin_gb"], cons["commodity"], cons["prelodged"])])
-    ml_clear = ctx.c2_model.predict(cons)["pred_mean"].to_numpy()
+    c2_pred = ctx.c2_model.predict(cons)
+    ml_clear = c2_pred["pred_mean"].to_numpy()
+    q90_overall = float(ctx.clearance_group_q90.mean()) if ctx.clearance_group_q90 is not None else ctx.clearance_overall_mean
+    avg_clear_q90 = np.array([ctx.clearance_group_q90.get((int(g), c, int(p)), q90_overall) if ctx.clearance_group_q90 is not None else q90_overall
+                              for g, c, p in zip(cons["origin_gb"], cons["commodity"], cons["prelodged"])])
+    ml_clear_q90 = c2_pred["pred_q90"].to_numpy()
     avg_p = [ctx.class_freq.loc[p].to_dict() for p in cons["port"]]
     c1_p = [{c: float(ctx.c1_probs.loc[(day, p), f"p_{c}"]) for c in P.CLASSES} for p in cons["port"]]
     return {
         "Average delays": P.estimate_delays(cons, avg_clear, avg_p),
+        # Control for the C2 range planner: a conservative historical buffer (group 90th percentile), no machine learning.
+        "Historical 90th percentile": P.estimate_delays(cons, avg_clear_q90, avg_p),
         "C1 only": P.estimate_delays(cons, avg_clear, c1_p),
         "C2 only": P.estimate_delays(cons, ml_clear, avg_p),
         "Coupled (C1+C2)": P.estimate_delays(cons, ml_clear, c1_p),
+        # Uses the upper end of the C2 range (90th percentile) to plan for slow clearances.
+        "Coupled, C2 90th percentile": P.estimate_delays(cons, ml_clear_q90, c1_p),
         "Oracle": P.oracle_delays(cons),
     }
 
