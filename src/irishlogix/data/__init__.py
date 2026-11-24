@@ -1,6 +1,4 @@
-"""
-Data ingestion and preprocessing module for IrishLogix.
-"""
+"""CSO data loader."""
 
 from .cso_loader import CSODataLoader, CSO_TABLES
 

@@ -1,6 +1,4 @@
-"""
-Simulation and baseline evaluation module for IrishLogix.
-"""
+"""Week 1 FIFO baseline."""
 
 from .baseline_dispatcher import BaselineFIFODispatcher
 

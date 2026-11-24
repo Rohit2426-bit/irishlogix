@@ -1,6 +1,4 @@
-"""
-Freight road corridor network module for IrishLogix.
-"""
+"""Irish road network."""
 
 from .corridor_network import (
     IrishFreightCorridorNetwork,

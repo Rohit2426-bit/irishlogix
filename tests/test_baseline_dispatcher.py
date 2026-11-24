@@ -1,6 +1,4 @@
-"""
-Unit tests for baseline FIFO dispatcher simulation.
-"""
+"""Tests for the Week 1 FIFO dispatcher."""
 
 import pytest
 import pandas as pd

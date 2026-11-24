@@ -1,6 +1,4 @@
-"""
-Unit tests for the CSO data loader.
-"""
+"""Tests for the CSO data loader."""
 
 import pandas as pd
 

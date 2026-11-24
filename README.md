@@ -32,7 +32,8 @@ To what extent does coupling predictions of port congestion and customs clearanc
 | Oracle (perfect information) | 2,675 | 5.36 | 0.21 | 1,158 |
 
 - Compared with FIFO, the coupled planner cuts cost by 7.6%, idle time by 38% and CO2 by 4.8% (Wilcoxon p < 0.001).
-- The predictions add no measurable value over average delays with 4 trucks (+0.8%, p = 0.98). Even perfect information is worth under 1%. With 3 trucks, the coupled planner captures about 89% of that value (not significant).
+- The point predictions add no measurable value over average delays (+0.8%, p = 0.98), and even perfect information is worth under 1%. This held in all six settings tested, including 3 trucks over 200 days.
+- What helps is the timing rule. Planning each arrival for a slow clearance (the C2 90th percentile) cuts cost by a further 1.1%, but a simple historical 90th percentile buffer, with no machine learning, gets 0.9%.
 - Between EUR 40 and EUR 500 per tonne, the carbon price barely changes routing. Eco speed only becomes the usual choice at EUR 1,000.
 - C1 macro-F1 is 0.63 (persistence 0.51). C2 MAE for GB loads is 0.60 h (group average 0.62 h), and its range covers 79% of actual clearance times.
 
@@ -61,7 +62,7 @@ src/irishlogix/evaluation/ benchmark and paired statistical tests
 scripts/                 one script per pipeline step, plus run_all.py
 app/streamlit_app.py     decision-support dashboard
 tests/                   unit tests
-results/                 tables, saved models and figures
+results/                 tables, saved models, figures and the extension tests (results/extensions/)
 ```
 
 ## How to run
@@ -77,7 +78,7 @@ python scripts/run_all.py        # rebuild every result; timings go to results/p
 streamlit run app/streamlit_app.py
 ```
 
-The pipeline runs these steps in order: data ingestion, simulation world, C1, C2, planner benchmark, scenarios, optimiser study, figures and tests. Each script can also be run on its own. All random steps use fixed seeds, so results are repeatable. The configuration manual has the full details.
+The pipeline runs these steps in order: data ingestion, simulation world, C1, C2, planner benchmark, scenarios, optimiser study, extension tests and their control, figures and tests. The full run takes about 45 minutes. Each script can also be run on its own. All random steps use fixed seeds, so results are repeatable. The configuration manual has the full details.
 
 ## Week 1 baseline
 

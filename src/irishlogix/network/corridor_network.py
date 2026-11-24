@@ -1,14 +1,15 @@
 """
-Irish Freight Corridor Network representation using NetworkX.
-Models primary freight routes connecting Dublin Port, Port of Cork, Rosslare Europort,
-and regional distribution centers across the Republic of Ireland.
+Road network for the study, built with NetworkX.
+
+Nodes are the main ports (Dublin, Cork, Rosslare, Waterford) and the inland freight hubs.
+Edges are the main truck roads between them, with distance, typical truck speed and tolls.
 """
 
 import networkx as nx
 import pandas as pd
 from typing import Dict, List, Tuple, Any
 
-# Node definitions with WGS84 coordinates and terminal types
+# Nodes with latitude, longitude and type (port or hub)
 NODES: Dict[str, Dict[str, Any]] = {
     "PORT_DUBLIN": {
         "name": "Dublin Port (Alexandra Quay / Ro-Ro)",
@@ -56,7 +57,7 @@ NODES: Dict[str, Dict[str, Any]] = {
     },
 }
 
-# Road segments (bidirectional) with distance (km), HGV speed (km/h), and road class
+# Road links (both directions) with distance in km, truck speed in km/h, road type and toll
 EDGES: List[Tuple[str, str, Dict[str, Any]]] = [
     # Dublin Port connections
     ("PORT_DUBLIN", "HUB_DUBLIN_M50", {
@@ -131,7 +132,7 @@ EDGES: List[Tuple[str, str, Dict[str, Any]]] = [
 
 
 class IrishFreightCorridorNetwork:
-    """Graph network manager for the Irish multimodal freight road network."""
+    """The road network as a NetworkX graph."""
 
     def __init__(self):
         self.graph = nx.Graph()
@@ -142,7 +143,7 @@ class IrishFreightCorridorNetwork:
             self.graph.add_node(node_id, **attrs)
 
         for u, v, attrs in EDGES:
-            # Calculate baseline free-flow travel time (hours)
+            # Driving time with no traffic, in hours
             free_flow_hours = attrs["distance_km"] / attrs["hgv_speed_kmh"]
             attrs["free_flow_hours"] = round(free_flow_hours, 3)
             self.graph.add_edge(u, v, **attrs)
@@ -154,15 +155,15 @@ class IrishFreightCorridorNetwork:
         weight: str = "distance_km"
     ) -> Dict[str, Any]:
         """
-        Calculates the shortest or quickest path between two freight nodes.
+        Shortest (or quickest) route between two nodes.
 
         Args:
-            origin: Node ID (e.g., 'PORT_DUBLIN')
-            destination: Node ID (e.g., 'HUB_GALWAY')
-            weight: Edge weight attribute ('distance_km' or 'free_flow_hours')
+            origin: node ID, for example 'PORT_DUBLIN'
+            destination: node ID, for example 'HUB_GALWAY'
+            weight: 'distance_km' for the shortest route, 'free_flow_hours' for the quickest
 
         Returns:
-            Dictionary containing node sequence, total distance, travel duration, and toll fees.
+            The nodes on the route, total distance, driving time, tolls and each road segment.
         """
         if origin not in self.graph:
             raise ValueError(f"Origin node {origin} not in graph.")
@@ -203,7 +204,7 @@ class IrishFreightCorridorNetwork:
         }
 
     def compute_distance_matrix(self) -> pd.DataFrame:
-        """Computes all-pairs shortest road distance matrix across all nodes."""
+        """Shortest road distance in km between every pair of nodes."""
         node_list = list(self.graph.nodes)
         matrix = {node: {} for node in node_list}
 

@@ -1,12 +1,11 @@
 """
-Automated Data Loader and Preprocessor for Irish Central Statistics Office (CSO)
-Maritime and Port Traffic Datasets.
+Downloads the CSO port traffic tables and builds the quarterly port activity matrix.
 
-Fetches open data via the CSO PxStat REST API and builds the quarterly port activity
-matrix used to calibrate the IrishLogix simulation world and the port congestion model (C1).
+The tables come from the CSO PxStat API and are cached in data/raw/cso. The matrix sets
+the levels of the simulation world and gives the quarterly inputs used by C1.
 
 Each table holds several statistics (for example counts and tonnages), so every query
-below selects one statistic code explicitly rather than summing across them.
+below picks one statistic code instead of adding them together.
 """
 
 import io
@@ -22,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 CSO_API_BASE_URL = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset"
 
-# Recognised CSO port traffic tables (Statistics of Port Traffic, quarterly).
+# CSO port traffic tables used here (all quarterly).
 CSO_TABLES = {
     "TBQ01": "Vessel arrivals and gross tonnage by port",
     "TBQ03": "Ro-Ro passenger and freight vehicles/trailers handled by port and direction",
@@ -48,14 +47,14 @@ DEFAULT_CACHE_DIR = Path("data/raw/cso")
 
 
 class CSODataLoader:
-    """Manages downloading, local caching, and parsing of CSO port traffic tables."""
+    """Downloads, caches and reads the CSO port traffic tables."""
 
     def __init__(self, cache_dir: Optional[Path] = None):
         self.cache_dir = Path(cache_dir) if cache_dir else DEFAULT_CACHE_DIR
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def fetch_raw_table(self, table_code: str, force_download: bool = False) -> str:
-        """Retrieves the raw CSV text for a CSO table, using the local cache when available."""
+        """Raw CSV text for a CSO table, read from the cache if it is there."""
         table_code = table_code.upper()
         if table_code not in CSO_TABLES:
             logger.warning(f"Table code {table_code} not in standard catalog, proceeding anyway.")
@@ -87,7 +86,7 @@ class CSODataLoader:
             raise
 
     def load_table_df(self, table_code: str, force_download: bool = False) -> pd.DataFrame:
-        """Loads a table and returns a tidy DataFrame with standardised column names."""
+        """A CSO table as a DataFrame, with lower-case column names and numeric values."""
         df = pd.read_csv(io.StringIO(self.fetch_raw_table(table_code, force_download=force_download)))
         df.columns = [col.strip().lower().replace(" ", "_") for col in df.columns]
         if "quarter" in df.columns:

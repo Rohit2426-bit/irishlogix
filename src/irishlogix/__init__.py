@@ -1,9 +1,8 @@
 """
-IrishLogix: Decision Support System for Post-Brexit Irish Freight Logistics.
+IrishLogix: port and customs delay prediction with carbon-aware route planning
+for post-Brexit Irish freight.
 
-Coupling Predictive Delay Analytics with Carbon-Aware Multi-Objective Route Optimisation.
-Author: Rohitkumar Amritlal Jaiswal (Student ID: 25119613)
-MSc in Data Analytics, National College of Ireland (NCI)
+Rohitkumar Amritlal Jaiswal (x25119613), MSc in Data Analytics, National College of Ireland.
 """
 
 __version__ = "0.1.0"

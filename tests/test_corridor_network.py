@@ -1,6 +1,4 @@
-"""
-Unit tests for Irish freight corridor network graph.
-"""
+"""Tests for the road network."""
 
 import pytest
 import networkx as nx
