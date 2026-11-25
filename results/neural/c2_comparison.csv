@@ -1,0 +1,5 @@
+subset,model,MAE_h,RMSE_h,R2
+All loads,XGBoost,0.2894,0.5918,0.4066
+All loads,MLP,0.2895,0.5897,0.4107
+Loads from Great Britain,XGBoost,0.5985,0.8832,0.116
+Loads from Great Britain,MLP,0.5977,0.8801,0.1223

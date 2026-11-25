@@ -1,0 +1,4 @@
+comparison,macro_f1_diff,ci95_low,ci95_high
+LSTM (28-day sequence) minus XGBoost,0.0148,-0.0059,0.036
+Logistic regression minus XGBoost,0.0104,-0.0151,0.0348
+MLP minus XGBoost,-0.017,-0.038,0.004

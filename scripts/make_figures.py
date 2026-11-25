@@ -192,6 +192,32 @@ def pareto_example():
     save(fig, "fig_pareto_example.png")
 
 
+def technique_classes():
+    """C1 macro-F1 by family of technique, and optimiser gap by metaheuristic (Week 10 meeting follow-up)."""
+    c1c = pd.read_csv("results/neural/c1_comparison.csv").sort_values("macro_f1")
+    meta = pd.read_csv("results/optimiser/metaheuristics_summary.csv").sort_values("mean_gap_pct", ascending=False)
+    fam_col = {"Simple rule": "#898781", "Machine learning (linear)": "#2a78d6", "Machine learning (trees)": "#eb6834",
+               "Neural network (feed-forward)": "#1baf7a", "Neural network (sequential)": "#4a3aa7"}
+    fig, axes = plt.subplots(1, 2, figsize=(10, 4.4))
+    ax = axes[0]
+    ax.barh(c1c["model"], c1c["macro_f1"], color=[fam_col[f] for f in c1c["family"]],
+            xerr=c1c["macro_f1_sd"].fillna(0), capsize=3)
+    for y, v in enumerate(c1c["macro_f1"]):
+        ax.text(v + 0.01, y, f"{v:.3f}", va="center", fontsize=8)
+    ax.set(xlabel="Macro-F1 on the test period", xlim=(0, 0.75), title="C1: prediction by family of technique")
+    ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=c) for c in fam_col.values()], labels=list(fam_col),
+              frameon=False, fontsize=7.5, loc="upper center", bbox_to_anchor=(0.4, -0.18), ncol=3)
+    ax = axes[1]
+    ax.barh(meta["method"], meta["mean_gap_pct"], color="#2a78d6", label="mean gap")
+    ax.scatter(meta["max_gap_pct"], meta["method"], color="#eb6834", zorder=3, label="worst gap")
+    ax.set_xscale("symlog", linthresh=0.1)
+    ax.set_xticks([0, 0.1, 1, 10])
+    ax.set_xticklabels(["0", "0.1", "1", "10"])
+    ax.set(xlabel="Gap to best known plan (%, log scale)", title="C3: optimisers, same budget")
+    ax.legend(frameon=False, fontsize=8, loc="upper right")
+    save(fig, "fig_technique_classes.png")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     c1_figures()
@@ -199,3 +225,4 @@ if __name__ == "__main__":
     benchmark_figures()
     optimiser_figures()
     pareto_example()
+    technique_classes()

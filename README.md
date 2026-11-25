@@ -35,6 +35,7 @@ To what extent does coupling predictions of port congestion and customs clearanc
 - The point predictions add no measurable value over average delays (+0.8%, p = 0.98), and even perfect information is worth under 1%. This held in all six settings tested, including 3 trucks over 200 days.
 - What helps is the timing rule. Planning each arrival for a slow clearance (the C2 90th percentile) cuts cost by a further 1.1%, but a simple historical 90th percentile buffer, with no machine learning, gets 0.9%.
 - Between EUR 40 and EUR 500 per tonne, the carbon price barely changes routing. Eco speed only becomes the usual choice at EUR 1,000.
+- Comparing classes of technique: an LSTM (28-day sequence) reached C1 macro-F1 0.640 (mean of 5 runs) against 0.625 for XGBoost, 0.635 for logistic regression and 0.607 for an MLP, with no significant difference from XGBoost. For C3, simulated annealing and differential evolution matched NSGA-II at one carbon price, but only NSGA-II gives the whole cost and CO2 trade-off in one run.
 - C1 macro-F1 is 0.63 (persistence 0.51). C2 MAE for GB loads is 0.60 h (group average 0.62 h), and its range covers 79% of actual clearance times.
 
 ## Data
@@ -56,7 +57,7 @@ data/processed/          cleaned CSO series and quarterly activity matrix
 src/irishlogix/data/     CSO loader
 src/irishlogix/network/  11-hub Irish road network
 src/irishlogix/world/    simulation world and all assumptions
-src/irishlogix/models/   C1 and C2
+src/irishlogix/models/   C1 and C2, plus LSTM and MLP alternatives
 src/irishlogix/optim/    route options, fuel model, schedule simulator, planners, NSGA-II
 src/irishlogix/evaluation/ benchmark and paired statistical tests
 scripts/                 one script per pipeline step, plus run_all.py
@@ -78,7 +79,7 @@ python scripts/run_all.py        # rebuild every result; timings go to results/p
 streamlit run app/streamlit_app.py
 ```
 
-The pipeline runs these steps in order: data ingestion, simulation world, C1, C2, planner benchmark, scenarios, optimiser study, extension tests and their control, figures and tests. The full run takes about 45 minutes. Each script can also be run on its own. All random steps use fixed seeds, so results are repeatable. The configuration manual has the full details.
+The pipeline runs these steps in order: data ingestion, simulation world, C1, C2, planner benchmark, scenarios, optimiser study, extension tests and their control, neural networks (LSTM, MLP), more metaheuristics (DE, PSO, simulated annealing), figures and tests. The full run takes about 50 minutes. Each script can also be run on its own. All random steps use fixed seeds, so results are repeatable. The configuration manual has the full details.
 
 ## Week 1 baseline
 

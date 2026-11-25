@@ -1,0 +1,19 @@
+model,class,precision,recall,f1,support
+XGBoost,Low,0.669,0.705,0.687,336.0
+XGBoost,Medium,0.422,0.42,0.421,305.0
+XGBoost,High,0.782,0.754,0.767,451.0
+Persistence,Low,0.555,0.557,0.556,336.0
+Persistence,Medium,0.327,0.328,0.327,305.0
+Persistence,High,0.65,0.647,0.649,451.0
+Weekday climatology,Low,0.429,0.399,0.414,336.0
+Weekday climatology,Medium,0.0,0.0,0.0,305.0
+Weekday climatology,High,0.46,0.796,0.583,451.0
+Logistic regression,Low,0.638,0.777,0.701,336.0
+Logistic regression,Medium,0.447,0.387,0.415,305.0
+Logistic regression,High,0.819,0.761,0.789,451.0
+LSTM (28-day sequence),Low,0.686,0.694,0.69,336.0
+LSTM (28-day sequence),Medium,0.438,0.49,0.462,305.0
+LSTM (28-day sequence),High,0.807,0.733,0.768,451.0
+MLP,Low,0.641,0.712,0.674,336.0
+MLP,Medium,0.403,0.393,0.396,305.0
+MLP,High,0.781,0.727,0.753,451.0

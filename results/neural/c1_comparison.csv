@@ -1,0 +1,7 @@
+model,family,runs,macro_f1,accuracy,brier,macro_f1_sd,seconds_per_fit
+LSTM (28-day sequence),Neural network (sequential),5,0.6399,0.6533,0.4434,0.0075,29.1
+Logistic regression,Machine learning (linear),1,0.6346,0.6612,0.4571,,
+XGBoost,Machine learning (trees),1,0.6252,0.6456,0.4539,,0.9
+MLP,Neural network (feed-forward),5,0.6074,0.6293,0.4657,0.0091,0.8
+Persistence,Simple rule,1,0.5106,0.5302,0.8523,,
+Weekday climatology,Simple rule,1,0.3323,0.4515,0.6317,,

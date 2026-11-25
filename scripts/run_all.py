@@ -22,6 +22,8 @@ STEPS = [
     ("Optimiser study", ["scripts/run_optimiser_study.py"]),
     ("Extensions (C2 range, 3 trucks on 200 days, queue sensitivity)", ["scripts/run_extensions.py"]),
     ("Extension control (historical 90th percentile)", ["scripts/run_extension_control.py"]),
+    ("Neural networks for C1 and C2 (LSTM, MLP)", ["scripts/run_neural.py"]),
+    ("More metaheuristics (DE, PSO, simulated annealing)", ["scripts/run_metaheuristics.py"]),
     ("Figures", ["scripts/make_figures.py"]),
     ("Unit tests", ["-m", "pytest", "tests", "-q", "-p", "no:cacheprovider"]),
 ]
